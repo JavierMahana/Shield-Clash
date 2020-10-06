@@ -1,13 +1,13 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_markGreen",
+    "path": "sprites/s_markGreen/s_markGreen.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "o_blockSight",
-    "path": "objects/o_blockSight/o_blockSight.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,7 +28,7 @@
     "path": "folders/Objetos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_wall",
+  "name": "o_markWalkable",
   "tags": [],
   "resourceType": "GMObject",
 }
