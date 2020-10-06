@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f8a2c78b-5cf0-4c63-b743-71b4115e3152","path":"sprites/s_sampleenemy/s_sampleenemy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f8a2c78b-5cf0-4c63-b743-71b4115e3152","path":"sprites/s_sampleenemy/s_sampleenemy.yy",},"LayerId":{"name":"d6163521-a677-4f60-864f-e22c5b0ce488","path":"sprites/s_sampleenemy/s_sampleenemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_sampleenemy","path":"sprites/s_sampleenemy/s_sampleenemy.yy",},"resourceVersion":"1.0","name":"f8a2c78b-5cf0-4c63-b743-71b4115e3152","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5d2c5249-d39c-4a7e-aff9-aac6bba00e27","path":"sprites/s_spawner/s_spawner.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5d2c5249-d39c-4a7e-aff9-aac6bba00e27","path":"sprites/s_spawner/s_spawner.yy",},"LayerId":{"name":"7ed8dbc7-640c-41e7-bfa2-9a4113cfd9b3","path":"sprites/s_spawner/s_spawner.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_spawner","path":"sprites/s_spawner/s_spawner.yy",},"resourceVersion":"1.0","name":"5d2c5249-d39c-4a7e-aff9-aac6bba00e27","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_sampleenemy","path":"sprites/s_sampleenemy/s_sampleenemy.yy",},
+    "spriteId": {"name":"s_spawner","path":"sprites/s_spawner/s_spawner.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"911b77a8-8609-48b6-9858-765992f0ba32","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f8a2c78b-5cf0-4c63-b743-71b4115e3152","path":"sprites/s_sampleenemy/s_sampleenemy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"07a688a9-b54a-49f5-977a-97ef06ad794b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5d2c5249-d39c-4a7e-aff9-aac6bba00e27","path":"sprites/s_spawner/s_spawner.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_sampleenemy","path":"sprites/s_sampleenemy/s_sampleenemy.yy",},
+    "parent": {"name":"s_spawner","path":"sprites/s_spawner/s_spawner.yy",},
     "resourceVersion": "1.3",
-    "name": "s_sampleenemy",
+    "name": "s_spawner",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d6163521-a677-4f60-864f-e22c5b0ce488","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7ed8dbc7-640c-41e7-bfa2-9a4113cfd9b3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_sampleenemy",
+  "name": "s_spawner",
   "tags": [],
   "resourceType": "GMSprite",
 }

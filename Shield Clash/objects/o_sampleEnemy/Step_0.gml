@@ -22,7 +22,7 @@ else
 
 
 
-if(collision_line(x,y,global.player_x, global.player_y, o_notWalkable, false, true) == noone)
+if(collision_line(x,y,global.player_x, global.player_y, o_blockSight, false, true) == noone)
 {
 	_playerOnSight = true;
 }
