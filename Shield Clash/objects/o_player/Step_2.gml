@@ -1,6 +1,4 @@
-/// @description MODIFICAR SPRITES
-// Puede escribir su código en este editor
-
+/// Actualizar sprites
 if(_invul)
 {
 	sprite_index = s_testPlayerInv;

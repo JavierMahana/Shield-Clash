@@ -1,10 +1,8 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
-
+/// Escudo steps!
 if(global.player_usingShield)
 {
-	x = global.player_x + 16;//16 es la mitad de la longitud del sprite del jugador.
-	y = global.player_y + 16;
+	x = o_player.x;
+	y = o_player.y;
 	image_angle = global.player_shieldDirection;
 }
 else

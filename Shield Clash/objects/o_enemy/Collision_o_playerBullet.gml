@@ -1,10 +1,9 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
+/// Al colisionar con un proyectil básico recibe 1 de daño y el proyectil es destruido
 
-_health -= 1;
+health -= 1;
+instance_destroy(other);
 
-if(_health <= 0)
+if(health <= 0)
 {
-	instance_destroy(other);
 	instance_destroy();
 }

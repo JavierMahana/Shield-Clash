@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "Jugador",
+    "path": "folders/Objetos/Jugador.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_shield",

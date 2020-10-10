@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "s_testPlayer",
-    "path": "sprites/s_testPlayer/s_testPlayer.yy",
+    "name": "s_testPit",
+    "path": "sprites/s_testPit/s_testPit.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "o_player",
-    "path": "objects/o_player/o_player.yy",
+    "name": "o_notWalkable",
+    "path": "objects/o_notWalkable/o_notWalkable.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,17 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_testPalyer","path":"objects/o_testPalyer/o_testPalyer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "Escenario",
+    "path": "folders/Objetos/Escenario.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_testPalyer",
+  "name": "o_pit",
   "tags": [],
   "resourceType": "GMObject",
 }

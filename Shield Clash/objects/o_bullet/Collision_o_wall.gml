@@ -1,3 +1,4 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
+/// Al chochar con muros el proyectil se destruye
 instance_destroy();
+
+//añadir animación.

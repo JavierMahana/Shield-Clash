@@ -1,23 +1,14 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
-
-global.player_y = y;
-global.player_x = x;
-
+/// Todas las variables del jugador
 global.player_usingShield = false;
 global.player_shieldDirection = 0;
 
-_horImp = 0;
-_verImp = 0;
-
-
-_speed = 4;
-
+_walkSpeed = 4;
+_collision_speed = _walkSpeed + 2;
 
 _dodgeFrameCount = 0;
 
-_dodgeHorMult = 0;
-_dodgeVerMult = 0;
+_xDirection = 0;
+_yDirection = 0;
 
 _dodgeInvulFrames = 14;
 _dodgeVulnerableFrames = 9;

@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "Enemigos",
+    "path": "folders/Objetos/Enemigos.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_bulletSpawner",
