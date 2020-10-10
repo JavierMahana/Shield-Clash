@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "s_sampleEnemy",
-    "path": "sprites/s_sampleEnemy/s_sampleEnemy.yy",
+    "name": "s_spawner",
+    "path": "sprites/s_spawner/s_spawner.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "o_enemy",
-    "path": "objects/o_enemy/o_enemy.yy",
+    "name": "o_spawner",
+    "path": "objects/o_spawner/o_spawner.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,8 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_sampleEnemy","path":"objects/o_sampleEnemy/o_sampleEnemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_sampleEnemy","path":"objects/o_sampleEnemy/o_sampleEnemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_spawnerMedium","path":"objects/o_spawnerMedium/o_spawnerMedium.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +33,7 @@
     "path": "folders/Objetos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_sampleEnemy",
+  "name": "o_spawnerMedium",
   "tags": [],
   "resourceType": "GMObject",
 }

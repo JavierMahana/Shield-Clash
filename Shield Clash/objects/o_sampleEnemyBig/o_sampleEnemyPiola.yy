@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_sampleEnemy",
-    "path": "sprites/s_sampleEnemy/s_sampleEnemy.yy",
+    "name": "s_sampleenemy",
+    "path": "sprites/s_sampleenemy/s_sampleenemy.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,8 +24,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_sampleEnemy","path":"objects/o_sampleEnemy/o_sampleEnemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_sampleEnemy","path":"objects/o_sampleEnemy/o_sampleEnemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_sampleEnemyPiola","path":"objects/o_sampleEnemyPiola/o_sampleEnemyPiola.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_sampleEnemyPiola","path":"objects/o_sampleEnemyPiola/o_sampleEnemyPiola.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +34,7 @@
     "path": "folders/Objetos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_sampleEnemy",
+  "name": "o_sampleEnemyPiola",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -24,5 +24,44 @@ _counterToDecreaseSpawnTime = 0;
 
 _counterSpawnEnemy = 0;
 
-_spawnersToSpawn[0] = o_spawner;
-_spawnerWeight[0] = 1;
+
+_counterLevelTime = 0;
+
+_canSpawnMedium = false;
+_canSpawnBig = false;
+_canSpawnHuge = false;
+
+_timeStartSpawnMediumEnemies = 300;
+_timeStartSpawnBigEnemies = 800;
+_timeStartSpawnHugeEnemies = 1500;
+
+_smallEnemiesSpawnWeight = 12;
+_mediumEnemiesSpawnWeight = 6;
+_bigEnemiesSpawnWeight = 3;
+_hugeEnemiesSpawnWeight = 1;
+
+
+_smallEnemiesSpawners[0] = o_spawner;
+
+_mediumEnemiesSpawners[0] = o_spawnerMedium;
+
+_bigEnemiesSpawners[0] = o_spawnerBig;
+
+_hugeEnemiesSpawners[0] = o_spawnerHuge;
+
+
+
+
+//_spawnersToSpawn[0] = o_spawner;
+
+
+
+
+enum EnemyType 
+{
+	SMALL,
+	MEDIUM,
+	BIG,
+	HUGE
+}
+
