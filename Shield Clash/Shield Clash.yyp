@@ -30,6 +30,7 @@
     {"id":{"name":"s_testPit","path":"sprites/s_testPit/s_testPit.yy",},"order":8,},
     {"id":{"name":"o_sampleEnemyBig","path":"objects/o_sampleEnemyBig/o_sampleEnemyBig.yy",},"order":22,},
     {"id":{"name":"IAFunctions","path":"scripts/IAFunctions/IAFunctions.yy",},"order":3,},
+    {"id":{"name":"o_playerControl","path":"objects/o_playerControl/o_playerControl.yy",},"order":26,},
     {"id":{"name":"o_sampleEnemy","path":"objects/o_sampleEnemy/o_sampleEnemy.yy",},"order":12,},
     {"id":{"name":"o_sampleEnemyHuge","path":"objects/o_sampleEnemyHuge/o_sampleEnemyHuge.yy",},"order":23,},
     {"id":{"name":"MovementMapFunctions","path":"scripts/MovementMapFunctions/MovementMapFunctions.yy",},"order":1,},
