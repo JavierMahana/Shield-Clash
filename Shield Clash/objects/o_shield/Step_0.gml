@@ -3,8 +3,8 @@
 
 if(global.player_usingShield)
 {
-	x = global.player_x + 16;//16 es la mitad de la longitud del sprite del jugador.
-	y = global.player_y + 16;
+	x = global.player_x;//16 es la mitad de la longitud del sprite del jugador.
+	y = global.player_y;
 	image_angle = global.player_shieldDirection;
 }
 else
