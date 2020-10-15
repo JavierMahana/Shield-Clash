@@ -61,6 +61,7 @@ if(_startDodge)
 	
 	_dodgeFrameCount = 0;
 	_onDodge = true;
+	audio_play_sound(sfx_roll,1,false);
 }
 
 
@@ -98,7 +99,6 @@ else
 
 x = collide_x(desiredX, self);
 y = collide_y(desiredY, self);
-
 
 #endregion
 
