@@ -12,22 +12,32 @@ desiredY = y;
 
 _horImp = 0;
 _verImp = 0;
-if(keyboard_check(ord("A")))
+if (not _onDodge)
 {
-	_horImp -= 1;
+	if(keyboard_check(ord("A")))
+	{
+		sprite_index = K_walk;
+		 image_xscale = 1;
+		_horImp -= 1;
+	}
+	if(keyboard_check(ord("D")))
+	{
+		sprite_index = K_walk;
+		 image_xscale = -1;
+		_horImp += 1;
+	}
+	if(keyboard_check(ord("W")))
+	{
+		sprite_index = K_walk;
+		_verImp -= 1;
+	}
+	if(keyboard_check(ord("S")))
+	{
+		sprite_index = K_walk;
+		_verImp += 1;
+	}
 }
-if(keyboard_check(ord("D")))
-{
-	_horImp += 1;
-}
-if(keyboard_check(ord("W")))
-{
-	_verImp -= 1;
-}
-if(keyboard_check(ord("S")))
-{
-	_verImp += 1;
-}
+
 
 
 
@@ -36,6 +46,7 @@ if(abs( _horImp) > 0 && abs(_verImp) > 0)
 	_horImp *= 0.71;
 	_verImp *= 0.71;
 }
+
 #endregion
 
 
@@ -54,8 +65,7 @@ if(_startDodge)
 
 
 if(_onDodge)
-{
-
+{	
 	if(_dodgeFrameCount < _dodgeInvulFrames)
 	{
 		_invul = true;
@@ -86,9 +96,9 @@ else
 #region DO THE MOVEMENT
 
 
-
 x = collide_x(desiredX, self);
 y = collide_y(desiredY, self);
+
 
 #endregion
 

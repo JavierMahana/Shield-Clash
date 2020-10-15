@@ -7,6 +7,7 @@ _speed = 0.5;
 
 _bulletSpeed = 2;
 _playerOnSight = false;
+
 //Al crearse el enemigo, ocupa un lugar en grid.
 path = path_add();
 

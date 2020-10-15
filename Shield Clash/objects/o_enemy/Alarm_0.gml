@@ -10,6 +10,7 @@ if(collision_line(x,y,global.player_x,global.player_y,o_blockSight,true,false))
 else
 {
 	_playerOnSight = true;	
+
 }
 
 /// Si no ve al jugador, busca una forma de llegar a él
@@ -17,6 +18,7 @@ if(!_playerOnSight)
 {
 	mp_grid_path(global.grid,path,x,y,global.player_x,global.player_y,true);
 	path_start(path,_speed,path_action_stop,true);
+	sprite_index = E1_walk;
 	//alarma se vuelve a activar
 	alarm_set(0,30);
 }
@@ -25,7 +27,8 @@ if(!_playerOnSight)
 /// Si ve al jugador activa la alarma 1 (alarma de disparo)
 if(_playerOnSight)
 {
-	alarm_set(1,30);
+	alarm_set(1,60);
 	// ésta alarma se desactiva.
 	alarm_set(0,-1);
+	sprite_index = E1_idle
 }

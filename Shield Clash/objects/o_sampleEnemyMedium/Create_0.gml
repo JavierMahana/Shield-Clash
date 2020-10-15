@@ -6,6 +6,7 @@ _health = 1;
 _shotTimer = 0;
 _timeBewtweenShots = 150;
 _playerOnSight = false;
+_contAnimacionAtaque = 30;
 
 _bulletSpeed = 2;
 

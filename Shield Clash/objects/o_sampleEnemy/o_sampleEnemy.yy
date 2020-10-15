@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_sampleEnemy",
-    "path": "sprites/s_sampleEnemy/s_sampleEnemy.yy",
+    "name": "E1_idle",
+    "path": "sprites/E1_idle/E1_idle.yy",
   },
   "solid": false,
   "visible": true,
