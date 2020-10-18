@@ -131,7 +131,7 @@ if(_counterSpawnEnemy >= _currentSpawnTime)
 		}		
 		default:
 		{
-			show_error("TRYNG TO SPAWN A INVALID TYPE OF ENEMY", true);
+			//show_error("TRYNG TO SPAWN A INVALID TYPE OF ENEMY", true);
 			break;
 		}
 	}
@@ -139,7 +139,7 @@ if(_counterSpawnEnemy >= _currentSpawnTime)
 	var spawnersCount = array_length_1d(spawnerArrayToUse);
 	if(spawnersCount <= 0)
 	{
-		show_error("YOU NEED TO ASSIGN A LIST OF SPAWNERS TO THE LEVEL. THAT LIST CONTAINS THE POSIBLES ENEMIES", true);
+		//show_error("YOU NEED TO ASSIGN A LIST OF SPAWNERS TO THE LEVEL. THAT LIST CONTAINS THE POSIBLES ENEMIES", true);
 	}
 	else
 	{

@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"CollideWithWalls","path":"scripts/CollideWithWalls/CollideWithWalls.yy",},"order":0,},
     {"id":{"name":"s_enemyBullet","path":"sprites/s_enemyBullet/s_enemyBullet.yy",},"order":2,},
+    {"id":{"name":"s_energyOutline","path":"sprites/s_energyOutline/s_energyOutline.yy",},"order":17,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":5,},
     {"id":{"name":"o_baseLevel","path":"objects/o_baseLevel/o_baseLevel.yy",},"order":18,},
     {"id":{"name":"o_bulletSpawner","path":"objects/o_bulletSpawner/o_bulletSpawner.yy",},"order":8,},
@@ -38,6 +39,8 @@
     {"id":{"name":"sfx_roll","path":"sounds/sfx_roll/sfx_roll.yy",},"order":2,},
     {"id":{"name":"s_testPit","path":"sprites/s_testPit/s_testPit.yy",},"order":8,},
     {"id":{"name":"o_sampleEnemyBig","path":"objects/o_sampleEnemyBig/o_sampleEnemyBig.yy",},"order":22,},
+    {"id":{"name":"s_energyBar","path":"sprites/s_energyBar/s_energyBar.yy",},"order":18,},
+    {"id":{"name":"o_energyBar","path":"objects/o_energyBar/o_energyBar.yy",},"order":28,},
     {"id":{"name":"sfx_shield6","path":"sounds/sfx_shield6/sfx_shield6.yy",},"order":5,},
     {"id":{"name":"IAFunctions","path":"scripts/IAFunctions/IAFunctions.yy",},"order":3,},
     {"id":{"name":"o_playerControl","path":"objects/o_playerControl/o_playerControl.yy",},"order":26,},

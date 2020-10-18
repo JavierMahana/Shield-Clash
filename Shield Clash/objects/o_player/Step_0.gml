@@ -104,7 +104,7 @@ y = collide_y(desiredY, self);
 
 
 #region SHIELD VARIABLES CONTROLLER
-_showShield = _shieldCurrCharge > 0 && mouse_check_button(mb_left) && ! _onDodge;
+_showShield = global._shieldCurrCharge > 0 && mouse_check_button(mb_left) && ! _onDodge;
 
 if(_showShield)
 {
@@ -112,22 +112,22 @@ if(_showShield)
 	global.player_usingShield = true;
 	//global.player_shieldDirection = point_direction(x, y, mouse_x, mouse_y);
 	
-	_shieldCurrCharge -= 1;
+	global._shieldCurrCharge -= 1;
 }
 else
 {
 	global.player_usingShield = false;
-	if(_shieldCurrCharge > 0)
+	if(global._shieldCurrCharge > 0)
 	{
 		if(_shieldTimeToStartRegen <= _shieldRechargeCounter)
 		{
-			if(_shieldMaxCharge < _shieldCurrCharge + _shieldRegenRate)
+			if(global._shieldMaxCharge < global._shieldCurrCharge + _shieldRegenRate)
 			{
-				_shieldCurrCharge = _shieldMaxCharge;
+				global._shieldCurrCharge = global._shieldMaxCharge;
 			}
 			else
 			{
-				_shieldCurrCharge += _shieldRegenRate;
+				global._shieldCurrCharge += _shieldRegenRate;
 			}
 		}
 	}
@@ -135,7 +135,7 @@ else
 	{
 		if(_shieldRechargeTime <= _shieldRechargeCounter)
 		{
-			_shieldCurrCharge = _shieldMaxCharge;
+			global._shieldCurrCharge = global._shieldMaxCharge;
 		}
 	}
 	_shieldRechargeCounter += 1;

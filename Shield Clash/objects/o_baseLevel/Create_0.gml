@@ -5,7 +5,7 @@
 _movmentMapInst = instance_find(o_movementMap, 0);
 if(_movmentMapInst == noone)
 {
-	show_error("YOU NEED A MOVEMENT MAP IN A LEVEL ROOM", true);
+	//show_error("YOU NEED A MOVEMENT MAP IN A LEVEL ROOM", true);
 	
 }
 
