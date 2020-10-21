@@ -12,22 +12,32 @@ desiredY = y;
 
 _horImp = 0;
 _verImp = 0;
-if(keyboard_check(ord("A")))
+if (not _onDodge)
 {
-	_horImp -= 1;
+	if(keyboard_check(ord("A")))
+	{
+		sprite_index = K_walk;
+		 image_xscale = 1;
+		_horImp -= 1;
+	}
+	if(keyboard_check(ord("D")))
+	{
+		sprite_index = K_walk;
+		 image_xscale = -1;
+		_horImp += 1;
+	}
+	if(keyboard_check(ord("W")))
+	{
+		sprite_index = K_walk;
+		_verImp -= 1;
+	}
+	if(keyboard_check(ord("S")))
+	{
+		sprite_index = K_walk;
+		_verImp += 1;
+	}
 }
-if(keyboard_check(ord("D")))
-{
-	_horImp += 1;
-}
-if(keyboard_check(ord("W")))
-{
-	_verImp -= 1;
-}
-if(keyboard_check(ord("S")))
-{
-	_verImp += 1;
-}
+
 
 
 
@@ -36,6 +46,7 @@ if(abs( _horImp) > 0 && abs(_verImp) > 0)
 	_horImp *= 0.71;
 	_verImp *= 0.71;
 }
+
 #endregion
 
 
@@ -50,12 +61,12 @@ if(_startDodge)
 	
 	_dodgeFrameCount = 0;
 	_onDodge = true;
+	audio_play_sound(sfx_roll,1,false);
 }
 
 
 if(_onDodge)
-{
-
+{	
 	if(_dodgeFrameCount < _dodgeInvulFrames)
 	{
 		_invul = true;
@@ -86,7 +97,6 @@ else
 #region DO THE MOVEMENT
 
 
-
 x = collide_x(desiredX, self);
 y = collide_y(desiredY, self);
 
@@ -94,7 +104,7 @@ y = collide_y(desiredY, self);
 
 
 #region SHIELD VARIABLES CONTROLLER
-_showShield = _shieldCurrCharge > 0 && mouse_check_button(mb_left) && ! _onDodge;
+_showShield = global._shieldCurrCharge > 0 && mouse_check_button(mb_left) && ! _onDodge;
 
 if(_showShield)
 {
@@ -102,22 +112,22 @@ if(_showShield)
 	global.player_usingShield = true;
 	//global.player_shieldDirection = point_direction(x, y, mouse_x, mouse_y);
 	
-	_shieldCurrCharge -= 1;
+	global._shieldCurrCharge -= 1;
 }
 else
 {
 	global.player_usingShield = false;
-	if(_shieldCurrCharge > 0)
+	if(global._shieldCurrCharge > 0)
 	{
 		if(_shieldTimeToStartRegen <= _shieldRechargeCounter)
 		{
-			if(_shieldMaxCharge < _shieldCurrCharge + _shieldRegenRate)
+			if(global._shieldMaxCharge < global._shieldCurrCharge + _shieldRegenRate)
 			{
-				_shieldCurrCharge = _shieldMaxCharge;
+				global._shieldCurrCharge = global._shieldMaxCharge;
 			}
 			else
 			{
-				_shieldCurrCharge += _shieldRegenRate;
+				global._shieldCurrCharge += _shieldRegenRate;
 			}
 		}
 	}
@@ -125,7 +135,7 @@ else
 	{
 		if(_shieldRechargeTime <= _shieldRechargeCounter)
 		{
-			_shieldCurrCharge = _shieldMaxCharge;
+			global._shieldCurrCharge = global._shieldMaxCharge;
 		}
 	}
 	_shieldRechargeCounter += 1;

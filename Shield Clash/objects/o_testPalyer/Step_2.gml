@@ -1,11 +1,10 @@
 /// @description MODIFICAR SPRITES
 // Puede escribir su código en este editor
 
-if(_invul)
+if(_onDodge)
 {
-	sprite_index = s_testPlayerInv;
+	sprite_index = K_roll;
 }
-else
-{
-	sprite_index = s_testPlayer;
-}
+
+	
+

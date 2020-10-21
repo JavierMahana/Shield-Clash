@@ -1,5 +1,5 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
+/// CREATE :s
+// The fucking globals
 
 global.player_y = y;
 global.player_x = x;
@@ -7,12 +7,13 @@ global.player_x = x;
 global.player_usingShield = false;
 global.player_shieldDirection = 0;
 
+// Basic Movement
+
 _horImp = 0;
 _verImp = 0;
-
-
 _speed = 4;
 
+// Dodge
 
 _dodgeFrameCount = 0;
 
@@ -27,11 +28,18 @@ _onDodge = false;
 
 _invul = false;
 
-_shieldMaxCharge = 100;
-_shieldCurrCharge = 100;
+// Shield 
+
+global._shieldMaxCharge = 100;
+global._shieldCurrCharge = 100;
 _shieldTimeToStartRegen = 20;
 _shieldRegenRate = 2;
 _shieldRechargeTime = 100;
 
 _shieldRechargeCounter = 0;
+
+// Shield Bar
+
+_barWidth = 60;
+_barHeight = 20;
 

@@ -5,8 +5,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "o_notWalkable",
-    "path": "objects/o_notWalkable/o_notWalkable.yy",
+    "name": "o_blockSight",
+    "path": "objects/o_blockSight/o_blockSight.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
