@@ -20,15 +20,15 @@ _speed = 0.5;
 
 _bulletSpeed = 2;
 
-_sightDistance = 300;
+_sightDistance = 150;
 _playerOnSight = false;
 
 //tiempo que se demora la animacion de inicio de ataque
 _attackPrepTime = 3;
 //tiempo que se demora la animacion de ataque
-_attackTime = 0.3;
+_attackTime = 0.6;
 //tiempo entre cada bala del ataque
-_attackInBewtweenTime = 0.7;
+_attackInBewtweenTime = 0.5;
 //tiempo en el que el enemigo no ataca y se empieza a mover luego de haber realizado un ataque
 _wanderTime = 10;
 

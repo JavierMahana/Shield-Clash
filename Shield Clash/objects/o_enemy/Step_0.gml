@@ -54,6 +54,7 @@ switch (_state)
 					if(_currBurstCount >= _burstAmmount)
 					{
 						//disparo todas las balas del ataque actual.
+						_currBurstCount = 0;
 						_state = EnemyState.WANDERING;
 					}
 					else
