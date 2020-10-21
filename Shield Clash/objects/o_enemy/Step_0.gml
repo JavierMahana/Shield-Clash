@@ -106,8 +106,8 @@ switch (_state)
 	case EnemyState.CHASING:
 	case EnemyState.WANDERING:
 	{
-		mp_grid_path(global.grid,path,x,y,global.player_x,global.player_y,true);
-		path_start(path,_speed,path_action_stop,true);
+		mp_grid_path(global.grid,path,x,y,global.player_x,global.player_y,false);
+		path_start(path,_speed,path_action_stop,false);
 		break;
 	}
 	
