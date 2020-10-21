@@ -20,3 +20,7 @@ path = path_add();
 //Éste enemigo usará la alarma 0 cada 30 algo.
 alarm[0] = 30;
 alarm[1] = -1;
+//Sprites
+_spriteWalk = s_sampleEnemyHuge;
+_spriteIdle = s_sampleEnemyHuge;
+_spriteAttack = s_sampleEnemyHuge;

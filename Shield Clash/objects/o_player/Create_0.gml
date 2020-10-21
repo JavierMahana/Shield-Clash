@@ -43,3 +43,5 @@ _shieldRechargeCounter = 0;
 _barWidth = 60;
 _barHeight = 20;
 
+//Player Bullet
+global._playerBulletSpeed = 1.5;

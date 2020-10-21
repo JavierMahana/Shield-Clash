@@ -32,7 +32,7 @@ else
 	// si hay vision, sigue disparando con la ejecucion de esta alarma
 	_playerOnSight = true;
 	alarm_set(0,60);
-	sprite_index = E1_attack;
+	sprite_index = _spriteAttack;
 }
 
 	

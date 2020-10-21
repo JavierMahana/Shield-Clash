@@ -1,6 +1,10 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
+//Restart
+if(keyboard_check(ord("R")))
+	{
+		room_restart();
+	}
 
+//Actual Relevant Stuff
 
 desiredX = x;
 desiredY = y;
@@ -142,8 +146,3 @@ else
 }
 #endregion
 
-
-
-
-//global.player_x = x;
-//global.player_y = y;

@@ -18,7 +18,7 @@ if(!_playerOnSight)
 {
 	mp_grid_path(global.grid,path,x,y,global.player_x,global.player_y,true);
 	path_start(path,_speed,path_action_stop,true);
-	sprite_index = E1_walk;
+	sprite_index = _spriteWalk;
 	//alarma se vuelve a activar
 	alarm_set(0,30);
 }
@@ -30,5 +30,5 @@ if(_playerOnSight)
 	alarm_set(1,60);
 	// ésta alarma se desactiva.
 	alarm_set(0,-1);
-	sprite_index = E1_idle
+	sprite_index = _spriteIdle
 }
