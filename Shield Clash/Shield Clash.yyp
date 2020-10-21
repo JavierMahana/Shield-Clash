@@ -35,6 +35,7 @@
     {"id":{"name":"s_sampleEnemy","path":"sprites/s_sampleEnemy/s_sampleEnemy.yy",},"order":0,},
     {"id":{"name":"s_sampleEnemyHuge","path":"sprites/s_sampleEnemyHuge/s_sampleEnemyHuge.yy",},"order":14,},
     {"id":{"name":"o_markWalkable","path":"objects/o_markWalkable/o_markWalkable.yy",},"order":14,},
+    {"id":{"name":"E1_prep","path":"sprites/E1_prep/E1_prep.yy",},"order":5,},
     {"id":{"name":"s_spawner","path":"sprites/s_spawner/s_spawner.yy",},"order":11,},
     {"id":{"name":"sfx_roll","path":"sounds/sfx_roll/sfx_roll.yy",},"order":2,},
     {"id":{"name":"s_testPit","path":"sprites/s_testPit/s_testPit.yy",},"order":8,},
