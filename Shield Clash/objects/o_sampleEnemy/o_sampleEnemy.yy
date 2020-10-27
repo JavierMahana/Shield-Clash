@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "Enemy1",
+    "path": "folders/Objetos/Enemy/Enemy1.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_sampleEnemy",

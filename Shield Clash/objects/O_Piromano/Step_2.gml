@@ -1,6 +1,11 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-_spawnCounter = 0;
-_spawnTime = 5;
+if(x < global.player_x)
+{
+	image_xscale = -1;
+}
+else
+{
+	image_xscale = 1;	
+}
 
-_entityToSpawn = o_Piromano;
