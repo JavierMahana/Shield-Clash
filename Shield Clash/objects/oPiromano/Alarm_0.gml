@@ -15,7 +15,9 @@ else
 if(!_playerOnSight)
 {
 	show_debug_message("Teltransporte");
-	alarm_set(0,30);
+	alarm_set(2, 40);
+	alarm_set(0,40);
+	sprite_index = sPiromano_Tele;
 }
 
 
