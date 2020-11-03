@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "Escenario",
+    "path": "folders/Objetos/Escenario.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_pit",

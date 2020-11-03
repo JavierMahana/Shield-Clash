@@ -9,10 +9,8 @@ if(keyboard_check(ord("R")))
 desiredX = x;
 desiredY = y;
 
+
 #region MOVEMENT INPUT READ
-
-
-
 
 _horImp = 0;
 _verImp = 0;
@@ -20,30 +18,27 @@ if (not _onDodge)
 {
 	if(keyboard_check(ord("A")))
 	{
-		sprite_index = K_walk;
+		sprite_index = Knight_Srun;
 		 image_xscale = 1;
 		_horImp -= 1;
 	}
 	if(keyboard_check(ord("D")))
 	{
-		sprite_index = K_walk;
+		sprite_index = Knight_Srun;
 		 image_xscale = -1;
 		_horImp += 1;
 	}
 	if(keyboard_check(ord("W")))
 	{
-		sprite_index = K_walk;
+		sprite_index = Knight_Urun;
 		_verImp -= 1;
 	}
 	if(keyboard_check(ord("S")))
 	{
-		sprite_index = K_walk;
+		sprite_index = Knight_Drun;
 		_verImp += 1;
 	}
 }
-
-
-
 
 if(abs( _horImp) > 0 && abs(_verImp) > 0)
 {
@@ -57,7 +52,6 @@ if(abs( _horImp) > 0 && abs(_verImp) > 0)
 #region DODGE CONTROLLER
 _startDodge = (abs( _horImp) > 0 || abs(_verImp) > 0)  && !_onDodge && mouse_check_button_pressed(mb_right);
 
-
 if(_startDodge)
 {
 	_dodgeHorMult = _horImp;
@@ -67,7 +61,6 @@ if(_startDodge)
 	_onDodge = true;
 	audio_play_sound(sfx_roll,1,false);
 }
-
 
 if(_onDodge)
 {	

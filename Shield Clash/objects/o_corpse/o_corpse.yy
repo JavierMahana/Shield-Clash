@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "Efectos",
+    "path": "folders/Objetos/Efectos.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_corpse",

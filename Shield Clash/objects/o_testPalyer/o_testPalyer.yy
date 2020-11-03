@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "K_idle",
-    "path": "sprites/K_idle/K_idle.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -27,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "Systems",
+    "path": "folders/Objetos/Systems.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_testPalyer",

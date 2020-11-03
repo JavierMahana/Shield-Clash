@@ -1,9 +1,7 @@
 /// CREATE :s
 // The fucking globals
-
-global.player_y = y;
 global.player_x = x;
-
+global.player_y = y;
 global.player_usingShield = false;
 global.player_shieldDirection = 0;
 
@@ -45,3 +43,4 @@ _barHeight = 20;
 
 //Player Bullet
 global._playerBulletSpeed = 1.5;
+

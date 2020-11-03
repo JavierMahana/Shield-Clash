@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "Systems",
+    "path": "folders/Objetos/Systems.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_bullet",

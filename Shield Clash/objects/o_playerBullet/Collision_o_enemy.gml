@@ -1,4 +1,4 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
-
+// Al morir los enemigos...
+Particulas();
+part_particles_create(global.particleSystem, other.x, other.y, global.particulaHit, 1);
 instance_destroy();

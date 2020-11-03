@@ -1,6 +1,10 @@
+_moveX = true;
+_moveY = false;
 _barWidth = 20;
 _barHeight = 5;
-_barX = 0;
-_barY = 0;
+_barX = global.player_x;
+_barY = global.player_y;
 _newBarY = 0;
 _newBarX = 0;
+contX = 0;
+contY = 0;
