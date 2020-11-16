@@ -8,5 +8,5 @@ if(_spawnCounter >= _spawnTime)
 }
 else
 {
-	_spawnCounter += 1;
+	_spawnCounter += delta_time/100000;
 }

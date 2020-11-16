@@ -3,4 +3,4 @@
 _spawnCounter = 0;
 _spawnTime = 10;
 
-_entityToSpawn = o_sampleEnemy;
+_entityToSpawn = o_Piromano;

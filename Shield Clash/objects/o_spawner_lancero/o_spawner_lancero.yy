@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "E1_idle",
-    "path": "sprites/E1_idle/E1_idle.yy",
+    "name": "s_spawner",
+    "path": "sprites/s_spawner/s_spawner.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "o_enemy_c",
-    "path": "objects/o_enemy_c/o_enemy_c.yy",
+    "name": "o_spawner",
+    "path": "objects/o_spawner/o_spawner.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,15 +23,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_spawner_lancero","path":"objects/o_spawner_lancero/o_spawner_lancero.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemy1",
-    "path": "folders/Objetos/Enemy/Enemy1.yy",
+    "name": "Spawn",
+    "path": "folders/Objetos/Spawn.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_sampleEnemy",
+  "name": "o_spawner_lancero",
   "tags": [],
   "resourceType": "GMObject",
 }

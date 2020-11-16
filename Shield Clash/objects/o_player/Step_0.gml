@@ -78,20 +78,35 @@ if(_onDodge)
 	}
 	_dodgeFrameCount += 1;
 	
-	desiredX += _dodgeHorMult * _dodgeSpeed;
-	desiredY += _dodgeVerMult * _dodgeSpeed;
+	desiredX += _dodgeHorMult * _dodgeSpeed; //* delta_time/100000;
+	desiredY += _dodgeVerMult * _dodgeSpeed; //* delta_time/100000;
 	
 }
 else
 {
-	desiredX += _horImp * _speed;
-	desiredY += _verImp * _speed;
+	desiredX += _horImp * _speed; //* delta_time/100000;
+	desiredY += _verImp * _speed; //* delta_time/100000;
 }
 
 #endregion
 
 
+#region SET THE GLOBAL MOVEMENT DIRECTION
+
+if(desiredX == x && desiredY == y)
+{
+	global.player_movmentDirection = -1;
+}
+else
+{
+	global.player_movmentDirection = point_direction(x,y,desiredX, desiredY);
+}
+
+
+#endregion
+
 #region DO THE MOVEMENT
+
 
 
 x = collide_x(desiredX, self);

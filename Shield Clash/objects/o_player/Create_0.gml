@@ -5,11 +5,14 @@ global.player_y = y;
 global.player_usingShield = false;
 global.player_shieldDirection = 0;
 
+global.player_speed = 0;
+//es la direccion de movimiento en grados. -1 si no hay cambio de direccion
+global.player_movmentDirection = -1;
 // Basic Movement
 
 _horImp = 0;
 _verImp = 0;
-_speed = 4;
+_speed = 3;
 
 // Dodge
 

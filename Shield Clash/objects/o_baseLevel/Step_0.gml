@@ -26,11 +26,11 @@ var currEnemyCount = instance_number(o_enemy) + instance_number(o_spawner);
 var increaseRatio = max((_maxIncreaseRatio - currEnemyCount), 1);
 //var increaseRatio = max(_maxIncreaseRatio - (15*log2(currEnemyCount - 1)), 1);
 //increaseRatio = 15*log2(currEnemyCount);
-show_debug_message("ratio: "+ string(increaseRatio) + " cantidad de enemigos: " + string(currEnemyCount));
+//show_debug_message("ratio: "+ string(increaseRatio) + " cantidad de enemigos: " + string(currEnemyCount));
 
 if(_currentMaxEnemies >= currEnemyCount)
 {
-	_counterSpawnEnemy += increaseRatio;
+	_counterSpawnEnemy += increaseRatio * delta_time/100000;
 }
 else
 {
@@ -143,7 +143,8 @@ if(_counterSpawnEnemy >= _currentSpawnTime)
 	}
 	else
 	{
-		var spawnerToCreate = spawnerArrayToUse[random_range(0, spawnersCount - 1)];
+		//show_debug_message(string(round(random_range(0, spawnersCount - 1))));
+		var spawnerToCreate = spawnerArrayToUse[round(random_range(0, spawnersCount - 1))];
 		instance_create_layer(spawnX, spawnY, "Instances", spawnerToCreate);
 	}
 }
@@ -160,8 +161,8 @@ if(_counterSpawnEnemy >= _currentSpawnTime)
 
 //INCREASE SPAWN RATE
 
-_counterToDecreaseSpawnTime += 1;
-if(_counterToDecreaseSpawnTime >= _ticksToDecreaseSpawnTime)
+_counterToDecreaseSpawnTime += delta_time/100000;
+if(_counterToDecreaseSpawnTime >= _timeToDecreaseSpawnTime)
 {
 	_counterToDecreaseSpawnTime = 0;
 	
@@ -174,8 +175,8 @@ if(_counterToDecreaseSpawnTime >= _ticksToDecreaseSpawnTime)
 
 //INCREASE MAX ENEMIES
 
-_counterIncreaseMaxEnemies += 1;
-if(_counterIncreaseMaxEnemies >= _ticksIncreaseMaxEnemies)
+_counterIncreaseMaxEnemies += delta_time/100000;
+if(_counterIncreaseMaxEnemies >= _timeToIncreaseMaxEnemies)
 {
 	_counterIncreaseMaxEnemies = 0;
 	
