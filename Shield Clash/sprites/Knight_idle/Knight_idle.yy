@@ -112,8 +112,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c3e7f05d-82c0-496e-aa2c-75f94dbdbd00","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Knight!",
-    "path": "folders/Sprites/Knight!.yy",
+    "name": "Old",
+    "path": "folders/Sprites/Old.yy",
   },
   "resourceVersion": "1.0",
   "name": "Knight_idle",

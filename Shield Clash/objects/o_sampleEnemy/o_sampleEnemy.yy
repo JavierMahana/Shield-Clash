@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "E1_idle",
-    "path": "sprites/E1_idle/E1_idle.yy",
+    "name": "Lowmage_idle",
+    "path": "sprites/Lowmage_idle/Lowmage_idle.yy",
   },
   "solid": false,
   "visible": true,

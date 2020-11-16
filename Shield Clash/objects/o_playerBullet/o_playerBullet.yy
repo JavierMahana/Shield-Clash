@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "s_playerBullet",
-    "path": "sprites/s_playerBullet/s_playerBullet.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

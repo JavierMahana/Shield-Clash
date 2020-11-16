@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"03f14ebd-0ed5-4fdc-84bd-f63ba2abd727","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Structure",
+    "path": "folders/Sprites/Structure.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_bulletSpawner",

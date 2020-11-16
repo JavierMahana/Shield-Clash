@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_testShield",
-    "path": "sprites/s_testShield/s_testShield.yy",
+    "name": "Shield",
+    "path": "sprites/Shield/Shield.yy",
   },
   "solid": false,
   "visible": true,

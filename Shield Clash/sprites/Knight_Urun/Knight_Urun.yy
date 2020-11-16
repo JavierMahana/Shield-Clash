@@ -80,8 +80,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2f9b4ff7-4810-4d56-b210-ff3389beb271","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Knight!",
-    "path": "folders/Sprites/Knight!.yy",
+    "name": "Old",
+    "path": "folders/Sprites/Old.yy",
   },
   "resourceVersion": "1.0",
   "name": "Knight_Urun",

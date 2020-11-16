@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a36290a1-2c01-4fd8-bc4b-1c1dc5d2ded5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Piromano",
-    "path": "folders/Sprites/Piromano.yy",
+    "name": "Old",
+    "path": "folders/Sprites/Old.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_PiromanoAttack",

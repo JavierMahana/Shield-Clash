@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_enemyBullet",
-    "path": "sprites/s_enemyBullet/s_enemyBullet.yy",
+    "name": "Lowmage_missile",
+    "path": "sprites/Lowmage_missile/Lowmage_missile.yy",
   },
   "solid": false,
   "visible": true,
