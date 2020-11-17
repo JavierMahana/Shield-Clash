@@ -6,6 +6,7 @@ global.player_usingShield = false;
 global.player_shieldDirection = 0;
 
 // Basic Movement
+_spriteIdle = K_Idle;
 
 _horImp = 0;
 _verImp = 0;

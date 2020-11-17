@@ -11,32 +11,38 @@ desiredY = y;
 
 
 #region MOVEMENT INPUT READ
-
+image_speed = 0;
 _horImp = 0;
 _verImp = 0;
+
 if (not _onDodge)
 {
+	
 	if(keyboard_check(ord("A")))
 	{
-		sprite_index = Knight_Srun;
+		_spriteIdle = K_side_run;
 		 image_xscale = 1;
 		_horImp -= 1;
+		image_speed = 1;
 	}
 	if(keyboard_check(ord("D")))
 	{
-		sprite_index = Knight_Srun;
+		_spriteIdle = K_side_run;
 		 image_xscale = -1;
 		_horImp += 1;
+		image_speed = 1;
 	}
 	if(keyboard_check(ord("W")))
 	{
-		sprite_index = Knight_Urun;
+		_spriteIdle = K_up_run;
 		_verImp -= 1;
+		image_speed = 1;
 	}
 	if(keyboard_check(ord("S")))
 	{
-		sprite_index = Knight_Drun;
+		_spriteIdle = K_down_run;
 		_verImp += 1;
+		image_speed = 1;
 	}
 }
 
@@ -45,6 +51,7 @@ if(abs( _horImp) > 0 && abs(_verImp) > 0)
 	_horImp *= 0.71;
 	_verImp *= 0.71;
 }
+
 
 #endregion
 
@@ -64,6 +71,7 @@ if(_startDodge)
 
 if(_onDodge)
 {	
+	image_speed = 1;
 	if(_dodgeFrameCount < _dodgeInvulFrames)
 	{
 		_invul = true;

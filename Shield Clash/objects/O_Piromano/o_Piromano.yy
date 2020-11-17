@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_Piromano",
-    "path": "sprites/s_Piromano/s_Piromano.yy",
+    "name": "Piromano_idle",
+    "path": "sprites/Piromano_idle/Piromano_idle.yy",
   },
   "solid": false,
   "visible": true,

@@ -3,11 +3,9 @@
 global.player_shieldDirection = point_direction(x, y, mouse_x, mouse_y);
 if(_onDodge)
 {
-	Particulas();
-	part_particles_create(global.particleSystem, global.player_x, global.player_y, global.particulaDash, 1);
 	if (_horImp != 0)
 	{
-			sprite_index = Knight_Sdodge;
+			sprite_index = K_side_roll;
 			if (_horImp == 1)
 			{
 				 image_xscale = -1;
@@ -17,15 +15,16 @@ if(_onDodge)
 	{
 		if(_verImp == 1)
 		{
-			sprite_index = Knight_Ddodge
+			sprite_index = K_down_roll
 		}
 		else
 		{
-			sprite_index = Knight_Udodge;
+			sprite_index = K_up_roll;
 		}
 	}
 }
 else
 {
-	sprite_index = Knight_idle;	
+		sprite_index = _spriteIdle;
+		
 }

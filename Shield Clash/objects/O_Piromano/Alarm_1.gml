@@ -4,11 +4,11 @@
 	path_start(path,0,path_action_stop,false);
 	if (image_xscale == -1)
 	{
-		var instance = instance_create_layer(x+16,y-16,"Instances", o_enemyBullet);	
+		var instance = instance_create_layer(x+16,y-16,"Instances", o_Piromano_missile);	
 	}
 	else
 	{
-		var instance = instance_create_layer(x-16,y-16,"Instances", o_enemyBullet);	
+		var instance = instance_create_layer(x-16,y-16,"Instances", o_Piromano_missile);	
 	}
 	var enemyBulletDir = point_direction(instance.x, instance.y, global.player_x, global.player_y);
 	instance.direction = enemyBulletDir;
@@ -30,5 +30,5 @@ else
 	// si hay vision, sigue disparando con la ejecucion de esta alarma
 	_playerOnSight = true;
 	alarm_set(0,60);
-	sprite_index = s_Piromano;
+	sprite_index = Piromano_idle;
 }

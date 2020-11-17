@@ -3,6 +3,6 @@
 
 if(_health <= 1)
 {
-	sprite_index = s_PiromanoRage;
+	sprite_index = Piromano_idle_rage;
 	_rageMode = true;
 }
