@@ -25,6 +25,6 @@ if(_onDodge)
 }
 else
 {
-		sprite_index = _spriteIdle;
+		sprite_index = K_Idle;
 		
 }

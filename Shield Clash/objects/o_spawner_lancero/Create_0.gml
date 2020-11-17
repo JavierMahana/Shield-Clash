@@ -1,7 +1,6 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
+_spawnCounter = 0;
+_spawnTime = 10;
 
-global.player_x = x;
-global.player_y = y;
-global.player_speed = _speed;
-	
+_entityToSpawn = o_lancero;

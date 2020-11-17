@@ -1,5 +1,5 @@
-//ahora el spawn va a seguir un crecimiento lineal.
-//pero debe seguir uno logaritmico.
+//LOS CONTADORES SON 1/10 DE SEGUNDO POR UNIDAD
+randomize();
 
 
 _movmentMapInst = instance_find(o_movementMap, 0);
@@ -13,13 +13,14 @@ _maxIncreaseRatio = 10;
 
 _currentMaxEnemies = 15; //starter
 _levelMaxEnemies = 50;
-_ticksIncreaseMaxEnemies = 500;
+_timeToIncreaseMaxEnemies = 100;
 _counterIncreaseMaxEnemies = 0;
 
-//NO ES EN FRAMES, YA QUE HAY UN MODIFICADOR.
-_currentSpawnTime = 400;//starter
-_levelLowestSpawnTime = 20;
-_ticksToDecreaseSpawnTime = 20;
+//NO ES EN 1/10 de segs, YA QUE HAY UN MODIFICADOR.
+_currentSpawnTime = 700;//starter
+_levelLowestSpawnTime = 100;
+//_ticksToDecreaseSpawnTime = 20;
+_timeToDecreaseSpawnTime = 10;
 _counterToDecreaseSpawnTime = 0;
 
 _counterSpawnEnemy = 0;
@@ -41,7 +42,9 @@ _bigEnemiesSpawnWeight = 3;
 _hugeEnemiesSpawnWeight = 1;
 
 
-_smallEnemiesSpawners[0] = o_spawner;
+_smallEnemiesSpawners[0] = o_spawner_lancero;//o_spawner_arquero;//o_spawner;
+//_smallEnemiesSpawners[1] = o_spawner_piromano;
+
 
 _mediumEnemiesSpawners[0] = o_spawnerMedium;
 

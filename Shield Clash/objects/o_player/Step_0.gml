@@ -11,38 +11,32 @@ desiredY = y;
 
 
 #region MOVEMENT INPUT READ
-image_speed = 0;
+
 _horImp = 0;
 _verImp = 0;
-
 if (not _onDodge)
 {
-	
 	if(keyboard_check(ord("A")))
 	{
-		_spriteIdle = K_side_run;
+		sprite_index = K_side_run;
 		 image_xscale = 1;
 		_horImp -= 1;
-		image_speed = 1;
 	}
 	if(keyboard_check(ord("D")))
 	{
-		_spriteIdle = K_side_run;
+		sprite_index = K_side_run;
 		 image_xscale = -1;
 		_horImp += 1;
-		image_speed = 1;
 	}
 	if(keyboard_check(ord("W")))
 	{
-		_spriteIdle = K_up_run;
+		sprite_index = K_up_run;
 		_verImp -= 1;
-		image_speed = 1;
 	}
 	if(keyboard_check(ord("S")))
 	{
-		_spriteIdle = K_down_run;
+		sprite_index = K_down_run;
 		_verImp += 1;
-		image_speed = 1;
 	}
 }
 
@@ -51,7 +45,6 @@ if(abs( _horImp) > 0 && abs(_verImp) > 0)
 	_horImp *= 0.71;
 	_verImp *= 0.71;
 }
-
 
 #endregion
 
@@ -71,7 +64,6 @@ if(_startDodge)
 
 if(_onDodge)
 {	
-	image_speed = 1;
 	if(_dodgeFrameCount < _dodgeInvulFrames)
 	{
 		_invul = true;
@@ -86,20 +78,35 @@ if(_onDodge)
 	}
 	_dodgeFrameCount += 1;
 	
-	desiredX += _dodgeHorMult * _dodgeSpeed;
-	desiredY += _dodgeVerMult * _dodgeSpeed;
+	desiredX += _dodgeHorMult * _dodgeSpeed; //* delta_time/100000;
+	desiredY += _dodgeVerMult * _dodgeSpeed; //* delta_time/100000;
 	
 }
 else
 {
-	desiredX += _horImp * _speed;
-	desiredY += _verImp * _speed;
+	desiredX += _horImp * _speed; //* delta_time/100000;
+	desiredY += _verImp * _speed; //* delta_time/100000;
 }
 
 #endregion
 
 
+#region SET THE GLOBAL MOVEMENT DIRECTION
+
+if(desiredX == x && desiredY == y)
+{
+	global.player_movmentDirection = -1;
+}
+else
+{
+	global.player_movmentDirection = point_direction(x,y,desiredX, desiredY);
+}
+
+
+#endregion
+
 #region DO THE MOVEMENT
+
 
 
 x = collide_x(desiredX, self);
@@ -146,4 +153,3 @@ else
 	_shieldRechargeCounter += 1;
 }
 #endregion
-
