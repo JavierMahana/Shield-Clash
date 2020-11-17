@@ -10,7 +10,7 @@
   ],
   "parent": {
     "name": "Rutas",
-    "path": "folders/Rutas.yy",
+    "path": "folders/Shaders/Scripts/Rutas.yy",
   },
   "resourceVersion": "1.0",
   "name": "PathCuadrado",
