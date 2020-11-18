@@ -1,15 +1,12 @@
 {
-  "spriteId": {
-    "name": "s_sampleEnemyBig",
-    "path": "sprites/s_sampleEnemyBig/s_sampleEnemyBig.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "o_enemy_c",
-    "path": "objects/o_enemy_c/o_enemy_c.yy",
+    "name": "o_movementMap",
+    "path": "objects/o_movementMap/o_movementMap.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_sampleEnemyBig","path":"objects/o_sampleEnemyBig/o_sampleEnemyBig.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemy",
-    "path": "folders/Objetos/Enemy.yy",
+    "name": "Systems",
+    "path": "folders/Objetos/Systems.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_sampleEnemyBig",
+  "name": "o_movementMap_12",
   "tags": [],
   "resourceType": "GMObject",
 }

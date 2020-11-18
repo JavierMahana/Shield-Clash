@@ -2,13 +2,14 @@
 // Puede escribir su código en este editor
 global.grid = mp_grid_create(0,0,room_width/32,room_height/32,32,32);
 mp_grid_add_instances(global.grid,o_notWalkable,true);
-_debugObj = false;
+
+_debugObj = true;
 
 //_mapWidth = 1000;
 //_mapHeight = 1000;
 
-_nodesX = 42;
-_nodesY = 23;
+_nodesX = 30;
+_nodesY = 20;
 
 
 _nodeWidth = 32;//_mapWidth / _nodesX;

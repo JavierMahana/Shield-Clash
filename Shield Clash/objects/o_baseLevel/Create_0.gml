@@ -42,11 +42,12 @@ _bigEnemiesSpawnWeight = 3;
 _hugeEnemiesSpawnWeight = 1;
 
 
-_smallEnemiesSpawners[0] = o_spawner_lancero;//o_spawner_arquero;//o_spawner;
-//_smallEnemiesSpawners[1] = o_spawner_piromano;
+_smallEnemiesSpawners[0] = o_spawner_arquero;
+_smallEnemiesSpawners[1] = o_spawner_piromano;
 
 
-_mediumEnemiesSpawners[0] = o_spawnerMedium;
+_mediumEnemiesSpawners[0] = o_spawner_lancero;
+_mediumEnemiesSpawners[1] = o_spawner_arquero;
 
 _bigEnemiesSpawners[0] = o_spawnerBig;
 

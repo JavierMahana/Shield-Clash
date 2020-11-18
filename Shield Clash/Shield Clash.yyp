@@ -11,6 +11,8 @@
     {"id":{"name":"w_left0","path":"sprites/w_left0/w_left0.yy",},"order":9,},
     {"id":{"name":"o_baseLevel","path":"objects/o_baseLevel/o_baseLevel.yy",},"order":0,},
     {"id":{"name":"o_bulletSpawner","path":"objects/o_bulletSpawner/o_bulletSpawner.yy",},"order":4,},
+    {"id":{"name":"o_movementMap2","path":"objects/o_movementMap2/o_movementMap2.yy",},"order":12,},
+    {"id":{"name":"o_movementMap_12","path":"objects/o_movementMap_12/o_movementMap_12.yy",},"order":13,},
     {"id":{"name":"Spearman_idle","path":"sprites/Spearman_idle/Spearman_idle.yy",},"order":1,},
     {"id":{"name":"s_floorizquierda","path":"sprites/s_floorizquierda/s_floorizquierda.yy",},"order":1,},
     {"id":{"name":"s_Floorll","path":"sprites/s_Floorll/s_Floorll.yy",},"order":5,},
@@ -207,8 +209,8 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"Level1","path":"rooms/Level1/Level1.yy",},
     {"name":"Level12","path":"rooms/Level12/Level12.yy",},
+    {"name":"Level1","path":"rooms/Level1/Level1.yy",},
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
     {"name":"dungeon","path":"rooms/dungeon/dungeon.yy",},
   ],
