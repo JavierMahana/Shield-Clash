@@ -18,14 +18,17 @@ if (not _onDodge)
 {
 	if(keyboard_check(ord("A")))
 	{
-		sprite_index = K_side_run;
-		 image_xscale = 1;
+		if(sprite_index != K_side_run)
+		{
+			sprite_index = K_side_run;
+		}		
+		image_xscale = 1;
 		_horImp -= 1;
 	}
 	if(keyboard_check(ord("D")))
 	{
 		sprite_index = K_side_run;
-		 image_xscale = -1;
+		image_xscale = -1;
 		_horImp += 1;
 	}
 	if(keyboard_check(ord("W")))

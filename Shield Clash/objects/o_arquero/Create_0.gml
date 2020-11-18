@@ -10,10 +10,10 @@ _walkingSprite = Archer_walk;
 
 #region general atributtes
 
-_health = 1;
-_speed = 0.5;
+_health = 2;
+_speed = 1;
 
-_sightDistance = 150;
+_sightDistance = 250;
 
 
 #endregion
@@ -22,13 +22,13 @@ _sightDistance = 150;
 #region attack attributes
 
 //tiempo que se demora la animacion de inicio de ataque
-_attackPrepTime = 30;
+_attackPrepTime = 10;
 //tiempo que se demora la animacion de ataque
-_attackTime = 6;
+_attackTime = 10;
 //tiempo entre cada bala del ataque
-_attackInBewtweenTime = 5;
+_attackInBewtweenTime = 0;
 //tiempo en el que el enemigo no ataca y se empieza a mover luego de haber realizado un ataque
-_wanderTime = 100;
+_wanderTime = 40;
 
 //cantidad de balas que se disparan en cada disparo de una rafaga.
 _ammountOfBulletsPerBurst = 5;

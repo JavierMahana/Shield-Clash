@@ -1,15 +1,14 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-global.grid = mp_grid_create(0,0,room_width/32,room_height/32,16,16);
+global.grid = mp_grid_create(0,0,room_width/32,room_height/32,32,32);
 mp_grid_add_instances(global.grid,o_notWalkable,true);
-
-_debugObj = true;
+_debugObj = false;
 
 //_mapWidth = 1000;
 //_mapHeight = 1000;
 
-_nodesX = 30;
-_nodesY = 20;
+_nodesX = 42;
+_nodesY = 23;
 
 
 _nodeWidth = 32;//_mapWidth / _nodesX;
@@ -28,25 +27,25 @@ for(var yy = 0; yy < _nodesY; yy++)
 		if(inst == noone)
 		{
 			
-			//if(_debugObj)
-			//{
-			//	var markInst = instance_create_layer((minX + maxX)/2 , (minY + maxY)/2, "Debug", o_markWalkable);
-			//	//instance_
-			//	markInst.image_xscale = _nodeWidth/2;
-			//	markInst.image_yscale = _nodeHeigth/2;
-			//}
+			if(_debugObj)
+			{
+				var markInst = instance_create_layer((minX + maxX)/2 , (minY + maxY)/2, "Debug", o_markWalkable);
+				//instance_
+				markInst.image_xscale = _nodeWidth/2;
+				markInst.image_yscale = _nodeHeigth/2;
+			}
 			_movementMap[xx, yy] = true;
 			//show_debug_message(string(xx) + "|" + string(yy) + " is clear");
 			
 		}
 		else
 		{
-			//if(_debugObj)
-			//{
-			//	var markInst = instance_create_layer((minX + maxX)/2 , (minY + maxY)/2, "Debug", o_markNotWalkable);
-			//	markInst.image_xscale = _nodeWidth/2;
-			//	markInst.image_yscale = _nodeHeigth/2;
-			//}
+			if(_debugObj)
+			{
+				var markInst = instance_create_layer((minX + maxX)/2 , (minY + maxY)/2, "Debug", o_markNotWalkable);
+				markInst.image_xscale = _nodeWidth/2;
+				markInst.image_yscale = _nodeHeigth/2;
+			}
 			
 			_movementMap[xx, yy] = false;
 			//show_debug_message(string(xx) + "|" + string(yy) + " have a wall");

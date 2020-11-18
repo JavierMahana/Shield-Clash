@@ -77,7 +77,7 @@
   ],
   "parent": {
     "name": "Decoration",
-    "path": "folders/Sprites/Decoration.yy",
+    "path": "folders/Sprites/Assets/Floor/Wall/Decoration.yy",
   },
   "resourceVersion": "1.0",
   "name": "Puddle_move",

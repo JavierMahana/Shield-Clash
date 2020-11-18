@@ -16,6 +16,9 @@ _speed = 3;
 
 // Dodge
 
+//hurt circle radius 
+_hurtRadius = 5;
+
 _dodgeFrameCount = 0;
 
 _dodgeHorMult = 0;
