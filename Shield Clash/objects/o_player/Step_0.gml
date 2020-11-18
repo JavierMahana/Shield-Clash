@@ -17,11 +17,8 @@ _verImp = 0;
 if (not _onDodge)
 {
 	if(keyboard_check(ord("A")))
-	{
-		if(sprite_index != K_side_run)
-		{
-			sprite_index = K_side_run;
-		}		
+	{	
+		sprite_index = K_side_run;
 		image_xscale = 1;
 		_horImp -= 1;
 	}
@@ -63,6 +60,7 @@ if(_startDodge)
 	_dodgeFrameCount = 0;
 	_onDodge = true;
 	audio_play_sound(sfx_roll,1,false);
+	_lastSprite = sprite_index;	
 }
 
 if(_onDodge)
@@ -110,10 +108,9 @@ else
 
 #region DO THE MOVEMENT
 
-
-
 x = collide_x(desiredX, self);
 y = collide_y(desiredY, self);
+
 
 #endregion
 
@@ -156,3 +153,5 @@ else
 	_shieldRechargeCounter += 1;
 }
 #endregion
+
+

@@ -7,8 +7,8 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 12,
+  "bbox_left": 3,
+  "bbox_right": 15,
   "bbox_top": 0,
   "bbox_bottom": 15,
   "HTile": false,
@@ -24,18 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6a5bce46-c578-45a2-8a5f-3dd7f08c6a4a","path":"sprites/Archer_walk/Archer_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6a5bce46-c578-45a2-8a5f-3dd7f08c6a4a","path":"sprites/Archer_walk/Archer_walk.yy",},"LayerId":{"name":"3e10df54-e0f9-4162-943f-581a354d170f","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Archer_walk","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","name":"6a5bce46-c578-45a2-8a5f-3dd7f08c6a4a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"59dc7fec-e7c9-45cc-915d-195d4ec98dd3","path":"sprites/Archer_walk/Archer_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"59dc7fec-e7c9-45cc-915d-195d4ec98dd3","path":"sprites/Archer_walk/Archer_walk.yy",},"LayerId":{"name":"3e10df54-e0f9-4162-943f-581a354d170f","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Archer_walk","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","name":"59dc7fec-e7c9-45cc-915d-195d4ec98dd3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"797fe40b-3a5c-4b63-a04b-31d6f49873c5","path":"sprites/Archer_walk/Archer_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"797fe40b-3a5c-4b63-a04b-31d6f49873c5","path":"sprites/Archer_walk/Archer_walk.yy",},"LayerId":{"name":"3e10df54-e0f9-4162-943f-581a354d170f","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Archer_walk","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","name":"797fe40b-3a5c-4b63-a04b-31d6f49873c5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"79e6eb28-7732-42b0-9fb3-579cc47fd811","path":"sprites/Archer_walk/Archer_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"79e6eb28-7732-42b0-9fb3-579cc47fd811","path":"sprites/Archer_walk/Archer_walk.yy",},"LayerId":{"name":"3e10df54-e0f9-4162-943f-581a354d170f","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Archer_walk","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","name":"79e6eb28-7732-42b0-9fb3-579cc47fd811","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9889d9cf-1d0e-436a-b90d-0c939e569b30","path":"sprites/Archer_walk/Archer_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9889d9cf-1d0e-436a-b90d-0c939e569b30","path":"sprites/Archer_walk/Archer_walk.yy",},"LayerId":{"name":"7074b7ae-428f-4348-914b-18fc673d4ec7","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Archer_walk","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","name":"9889d9cf-1d0e-436a-b90d-0c939e569b30","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d2ba903b-60ae-4bbe-b0e7-e1a0d778e60b","path":"sprites/Archer_walk/Archer_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d2ba903b-60ae-4bbe-b0e7-e1a0d778e60b","path":"sprites/Archer_walk/Archer_walk.yy",},"LayerId":{"name":"7074b7ae-428f-4348-914b-18fc673d4ec7","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Archer_walk","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","name":"d2ba903b-60ae-4bbe-b0e7-e1a0d778e60b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"38f35dce-6438-46ab-b1e2-6af7ea414562","path":"sprites/Archer_walk/Archer_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"38f35dce-6438-46ab-b1e2-6af7ea414562","path":"sprites/Archer_walk/Archer_walk.yy",},"LayerId":{"name":"7074b7ae-428f-4348-914b-18fc673d4ec7","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Archer_walk","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","name":"38f35dce-6438-46ab-b1e2-6af7ea414562","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b2fbe537-075f-46fe-8ea6-26c3eeb5beac","path":"sprites/Archer_walk/Archer_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b2fbe537-075f-46fe-8ea6-26c3eeb5beac","path":"sprites/Archer_walk/Archer_walk.yy",},"LayerId":{"name":"7074b7ae-428f-4348-914b-18fc673d4ec7","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Archer_walk","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","name":"b2fbe537-075f-46fe-8ea6-26c3eeb5beac","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Archer_walk","path":"sprites/Archer_walk/Archer_walk.yy",},
@@ -50,10 +50,10 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"71028c11-6eac-4cc4-807a-e128e0546738","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6a5bce46-c578-45a2-8a5f-3dd7f08c6a4a","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"16e33832-ed7c-4c8e-a2f6-870c03c6ceda","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"59dc7fec-e7c9-45cc-915d-195d4ec98dd3","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"5703435c-8d7b-4da2-87fa-bd6c99512531","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"797fe40b-3a5c-4b63-a04b-31d6f49873c5","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"4e586a87-e4a9-4cda-8c93-8b239e01f589","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"79e6eb28-7732-42b0-9fb3-579cc47fd811","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8ae70568-d18b-4b5f-9046-f4eeaf331495","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9889d9cf-1d0e-436a-b90d-0c939e569b30","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d089909a-d0fe-4c22-87f3-2e41868a847d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d2ba903b-60ae-4bbe-b0e7-e1a0d778e60b","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e7d3a6c0-76d9-4f59-9b89-bd0abb50fbad","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"38f35dce-6438-46ab-b1e2-6af7ea414562","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2064f3ad-363d-4799-a9fd-fff92dda63af","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b2fbe537-075f-46fe-8ea6-26c3eeb5beac","path":"sprites/Archer_walk/Archer_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -77,7 +77,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3e10df54-e0f9-4162-943f-581a354d170f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7074b7ae-428f-4348-914b-18fc673d4ec7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Archer",

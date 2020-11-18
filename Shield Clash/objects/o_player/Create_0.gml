@@ -1,4 +1,5 @@
 /// CREATE :s
+sprite_index = K_Idle
 // The fucking globals
 global.player_x = x;
 global.player_y = y;
@@ -6,6 +7,7 @@ global.player_usingShield = false;
 global.player_shieldDirection = 0;
 
 global.player_speed = 0;
+
 //es la direccion de movimiento en grados. -1 si no hay cambio de direccion
 global.player_movmentDirection = -1;
 // Basic Movement

@@ -18,6 +18,7 @@ _idleSrite = Lowmage_idle;
 _prepSprite = Lowmage_idle;
 _attackingSprite = Lowmage_attack;
 _walkingSprite = Lowmage_idle;
+_bulletSprite = Lowmage_missile;
 
 #endregion
 

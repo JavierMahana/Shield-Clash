@@ -135,11 +135,11 @@ if(_triggerAttack)
 		
 		if (image_xscale == -1)
 		{
-			var instance = instance_create_layer(x+16,y-16,"Instances", _bulletObject);	
+			var instance = instance_create_layer(x+8,y-8,"Instances", _bulletObject);	
 		}
 		else
 		{
-			var instance = instance_create_layer(x-16,y-16,"Instances", _bulletObject);	
+			var instance = instance_create_layer(x-8,y-8,"Instances", _bulletObject);	
 		}
 		
 		if(_predictMovement && global.player_movmentDirection != -1)
@@ -160,6 +160,8 @@ if(_triggerAttack)
 		
 		instance.direction = enemyBulletDir;
 		instance.speed = _bulletSpeed;
+		instance.sprite_index = _bulletSprite;
+		instance.image_angle = point_direction(instance.x,instance. y, global.player_x, global.player_y);
 	}
 	
 
@@ -168,4 +170,17 @@ if(_triggerAttack)
 		
 }
 
+#endregion
+
+#region Sprite
+{
+	if(global.player_x <= x)
+	{
+		image_xscale = 1;
+	}
+	else
+	{
+		image_xscale = -1;
+	}
+}
 #endregion

@@ -5,6 +5,7 @@ _idleSrite = Spearman_idle;
 _prepSprite = Spearman_idle;
 _attackingSprite = Spearman_attack;
 _walkingSprite = Spearman_idle;
+_bulletSprite = Spearman_missile;
 
 #endregion
 

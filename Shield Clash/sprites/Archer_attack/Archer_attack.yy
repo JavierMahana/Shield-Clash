@@ -7,8 +7,8 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 12,
+  "bbox_left": 3,
+  "bbox_right": 15,
   "bbox_top": 0,
   "bbox_bottom": 15,
   "HTile": false,
@@ -24,24 +24,24 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f51e054d-0da7-4916-aa4c-8fac7cb50067","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f51e054d-0da7-4916-aa4c-8fac7cb50067","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":{"name":"d0eae622-54d7-4f67-ba62-dc902958975b","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Archer_attack","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"f51e054d-0da7-4916-aa4c-8fac7cb50067","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"946562ed-050f-4424-88a8-9a765f5c8b3c","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"946562ed-050f-4424-88a8-9a765f5c8b3c","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":{"name":"d0eae622-54d7-4f67-ba62-dc902958975b","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Archer_attack","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"946562ed-050f-4424-88a8-9a765f5c8b3c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bba01026-84e5-4e2c-a611-ba89dfa40ee1","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bba01026-84e5-4e2c-a611-ba89dfa40ee1","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":{"name":"d0eae622-54d7-4f67-ba62-dc902958975b","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Archer_attack","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"bba01026-84e5-4e2c-a611-ba89dfa40ee1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2a48f7a6-0d1e-4742-91d5-3e6f36ecbd81","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2a48f7a6-0d1e-4742-91d5-3e6f36ecbd81","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":{"name":"d0eae622-54d7-4f67-ba62-dc902958975b","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Archer_attack","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"2a48f7a6-0d1e-4742-91d5-3e6f36ecbd81","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"998de4ac-2afe-440a-bc9a-35406034db4d","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"998de4ac-2afe-440a-bc9a-35406034db4d","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":{"name":"d0eae622-54d7-4f67-ba62-dc902958975b","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Archer_attack","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"998de4ac-2afe-440a-bc9a-35406034db4d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"635d909e-6af7-4bfa-b79a-46c53c69fa53","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"635d909e-6af7-4bfa-b79a-46c53c69fa53","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":{"name":"d0eae622-54d7-4f67-ba62-dc902958975b","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Archer_attack","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"635d909e-6af7-4bfa-b79a-46c53c69fa53","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fd578515-b5d0-4960-b4ca-a4491ee0c7bf","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fd578515-b5d0-4960-b4ca-a4491ee0c7bf","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":{"name":"d25e02d9-442e-4c81-bc0d-6353731a7184","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Archer_attack","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"fd578515-b5d0-4960-b4ca-a4491ee0c7bf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"85d759e5-dbfa-4fc1-a3a6-db4d8191a058","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"85d759e5-dbfa-4fc1-a3a6-db4d8191a058","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":{"name":"d25e02d9-442e-4c81-bc0d-6353731a7184","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Archer_attack","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"85d759e5-dbfa-4fc1-a3a6-db4d8191a058","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0b2214be-5d1e-4aa6-ae9c-020cb3765332","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0b2214be-5d1e-4aa6-ae9c-020cb3765332","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":{"name":"d25e02d9-442e-4c81-bc0d-6353731a7184","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Archer_attack","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"0b2214be-5d1e-4aa6-ae9c-020cb3765332","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"28c3a4c2-f190-4a54-9087-59163a3bc241","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"28c3a4c2-f190-4a54-9087-59163a3bc241","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":{"name":"d25e02d9-442e-4c81-bc0d-6353731a7184","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Archer_attack","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"28c3a4c2-f190-4a54-9087-59163a3bc241","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"28836bfa-41e7-41db-b402-faee5daa2b4d","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"28836bfa-41e7-41db-b402-faee5daa2b4d","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":{"name":"d25e02d9-442e-4c81-bc0d-6353731a7184","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Archer_attack","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"28836bfa-41e7-41db-b402-faee5daa2b4d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"cdb8822c-38df-4b4d-b9ee-f117caf01620","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cdb8822c-38df-4b4d-b9ee-f117caf01620","path":"sprites/Archer_attack/Archer_attack.yy",},"LayerId":{"name":"d25e02d9-442e-4c81-bc0d-6353731a7184","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Archer_attack","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","name":"cdb8822c-38df-4b4d-b9ee-f117caf01620","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Archer_attack","path":"sprites/Archer_attack/Archer_attack.yy",},
@@ -56,12 +56,12 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"023084af-f67d-4b19-9eba-4dedde440e93","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f51e054d-0da7-4916-aa4c-8fac7cb50067","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"005c0176-c1a3-4a97-8c35-de3a10b718a3","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"946562ed-050f-4424-88a8-9a765f5c8b3c","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"55fcc3ae-bea2-41a9-beb1-de9a204d21b0","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bba01026-84e5-4e2c-a611-ba89dfa40ee1","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"343e25d7-b439-4b06-8ced-70061daae440","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2a48f7a6-0d1e-4742-91d5-3e6f36ecbd81","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"e810d792-120f-43dd-ab1c-cedf1100d110","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"998de4ac-2afe-440a-bc9a-35406034db4d","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"bd3ab4a1-db65-44b6-ae29-ed47f77ec175","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"635d909e-6af7-4bfa-b79a-46c53c69fa53","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7978592d-74eb-46ab-8018-1aaf18c78435","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fd578515-b5d0-4960-b4ca-a4491ee0c7bf","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"98276b6c-aa3d-4008-987d-d7f4903408cc","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"85d759e5-dbfa-4fc1-a3a6-db4d8191a058","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"560ccaff-334b-4ac5-8faf-64b1ecb168d4","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0b2214be-5d1e-4aa6-ae9c-020cb3765332","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"853e661a-13a2-41ff-b300-4e7b6afd8394","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"28c3a4c2-f190-4a54-9087-59163a3bc241","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"efa983c1-702a-4115-8360-b34b737c7ca4","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"28836bfa-41e7-41db-b402-faee5daa2b4d","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0219fa29-e232-4312-8436-c1036b7850ba","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cdb8822c-38df-4b4d-b9ee-f117caf01620","path":"sprites/Archer_attack/Archer_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -85,7 +85,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d0eae622-54d7-4f67-ba62-dc902958975b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d25e02d9-442e-4c81-bc0d-6353731a7184","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Archer",

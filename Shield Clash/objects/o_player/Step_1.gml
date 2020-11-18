@@ -1,6 +1,8 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 global.player_shieldDirection = point_direction(x, y, mouse_x, mouse_y);
+
+
 if(_onDodge)
 {
 	if (_horImp != 0)
@@ -22,9 +24,12 @@ if(_onDodge)
 			sprite_index = K_up_roll;
 		}
 	}
+	
 }
 else
 {
-		sprite_index = K_Idle;
-		
+	_lastSprite = sprite_index;	
 }
+
+
+

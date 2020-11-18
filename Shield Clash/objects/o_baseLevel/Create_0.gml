@@ -49,7 +49,7 @@ _smallEnemiesSpawners[1] = o_spawner_piromano;
 _mediumEnemiesSpawners[0] = o_spawner_lancero;
 _mediumEnemiesSpawners[1] = o_spawner_arquero;
 
-_bigEnemiesSpawners[0] = o_spawnerBig;
+_bigEnemiesSpawners[0] = o_Lowmage;
 
 _hugeEnemiesSpawners[0] = o_spawnerHuge;
 
