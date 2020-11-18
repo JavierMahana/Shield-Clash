@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9178d442-f135-4850-9345-3c79115625f8","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Structure",
+    "path": "folders/Sprites/Structure.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_sampleWall",

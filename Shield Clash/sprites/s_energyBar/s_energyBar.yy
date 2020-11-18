@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c711e9d7-4a50-4a27-83bb-7ce2396181e7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Knight!",
+    "path": "folders/Sprites/Knight!.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_energyBar",

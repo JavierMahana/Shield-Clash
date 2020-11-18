@@ -18,20 +18,25 @@ if(!_playerOnSight)
 {
 	alarm_set(2, 40);
 	alarm_set(0,40);
-	sprite_index = s_PiromanoTele;
+	sprite_index = Piromano_teleport;
+	if(_rageMode)
+	{
+		sprite_index = Piromano_rage_teleport;
+	}
 }
 
 tim =30;
 /// Si ve al jugador activa la alarma 1 (alarma de disparo)
 if(_playerOnSight)
 {
+	sprite_index = Piromano_attack;
 	if(_rageMode)
 	{
 		tim = 1;
+		sprite_index = Piromano_attack_rage;
 	}
 	
 	alarm_set(1,tim);
 	// Ã©sta alarma se desactiva.
 	alarm_set(0,-1);
-	sprite_index = s_PiromanoAttack;
 }

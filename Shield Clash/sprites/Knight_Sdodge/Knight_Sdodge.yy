@@ -88,8 +88,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ec22de98-4bfb-4d6a-9bc5-88a15ab82ff7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Knight!",
-    "path": "folders/Sprites/Knight!.yy",
+    "name": "Old",
+    "path": "folders/Sprites/Old.yy",
   },
   "resourceVersion": "1.0",
   "name": "Knight_Sdodge",

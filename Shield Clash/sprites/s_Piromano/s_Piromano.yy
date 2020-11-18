@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"44ad55f5-0f60-49f3-b22c-c4d82fe20293","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Piromano",
-    "path": "folders/Sprites/Piromano.yy",
+    "name": "Old",
+    "path": "folders/Sprites/Old.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_Piromano",

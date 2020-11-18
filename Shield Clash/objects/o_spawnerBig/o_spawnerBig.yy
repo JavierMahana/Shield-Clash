@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_spawner",
-    "path": "sprites/s_spawner/s_spawner.yy",
+    "name": "Spawner",
+    "path": "sprites/Spawner/Spawner.yy",
   },
   "solid": false,
   "visible": true,

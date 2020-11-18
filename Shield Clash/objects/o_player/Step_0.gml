@@ -18,24 +18,24 @@ if (not _onDodge)
 {
 	if(keyboard_check(ord("A")))
 	{
-		sprite_index = Knight_Srun;
+		sprite_index = K_side_run;
 		 image_xscale = 1;
 		_horImp -= 1;
 	}
 	if(keyboard_check(ord("D")))
 	{
-		sprite_index = Knight_Srun;
+		sprite_index = K_side_run;
 		 image_xscale = -1;
 		_horImp += 1;
 	}
 	if(keyboard_check(ord("W")))
 	{
-		sprite_index = Knight_Urun;
+		sprite_index = K_up_run;
 		_verImp -= 1;
 	}
 	if(keyboard_check(ord("S")))
 	{
-		sprite_index = Knight_Drun;
+		sprite_index = K_down_run;
 		_verImp += 1;
 	}
 }
@@ -78,20 +78,35 @@ if(_onDodge)
 	}
 	_dodgeFrameCount += 1;
 	
-	desiredX += _dodgeHorMult * _dodgeSpeed;
-	desiredY += _dodgeVerMult * _dodgeSpeed;
+	desiredX += _dodgeHorMult * _dodgeSpeed; //* delta_time/100000;
+	desiredY += _dodgeVerMult * _dodgeSpeed; //* delta_time/100000;
 	
 }
 else
 {
-	desiredX += _horImp * _speed;
-	desiredY += _verImp * _speed;
+	desiredX += _horImp * _speed; //* delta_time/100000;
+	desiredY += _verImp * _speed; //* delta_time/100000;
 }
 
 #endregion
 
 
+#region SET THE GLOBAL MOVEMENT DIRECTION
+
+if(desiredX == x && desiredY == y)
+{
+	global.player_movmentDirection = -1;
+}
+else
+{
+	global.player_movmentDirection = point_direction(x,y,desiredX, desiredY);
+}
+
+
+#endregion
+
 #region DO THE MOVEMENT
+
 
 
 x = collide_x(desiredX, self);
@@ -138,4 +153,3 @@ else
 	_shieldRechargeCounter += 1;
 }
 #endregion
-

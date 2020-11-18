@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a38f5297-d329-469d-8964-4228970403b3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Old",
+    "path": "folders/Sprites/Old.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_markRed",
