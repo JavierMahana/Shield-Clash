@@ -44,7 +44,7 @@ _bulletSpeed = 1;
 //cantidad de disparos que tiene una rafaga de ataques.
 _burstAmmount = 4;
 
-_predictMovement = true;
+_predictMovement = false;
 
 _bulletObject = o_enemyBullet;
 
