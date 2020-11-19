@@ -1,12 +1,15 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "Spawner",
+    "path": "sprites/Spawner/Spawner.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "o_movementMap",
-    "path": "objects/o_movementMap/o_movementMap.yy",
+    "name": "o_spawner",
+    "path": "objects/o_spawner/o_spawner.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -21,16 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_movementMap_12","path":"objects/o_movementMap_12/o_movementMap_12.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_spawner_arquero","path":"objects/o_spawner_arquero/o_spawner_arquero.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Systems",
-    "path": "folders/Objetos/Systems.yy",
+    "name": "Spawn",
+    "path": "folders/Objetos/Spawn.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_movementMap_12",
+  "name": "o_spawner_arquero",
   "tags": [],
   "resourceType": "GMObject",
 }

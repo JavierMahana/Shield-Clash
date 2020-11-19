@@ -1,6 +1,6 @@
 #region PERMITIR SPAWN DE ENEMIGOS MAS PODEROSOS
 
-_counterLevelTime += 1;
+_counterLevelTime += delta_time / 100000;
 if(_counterLevelTime >= _timeStartSpawnMediumEnemies)
 {
 	_canSpawnMedium = true;
