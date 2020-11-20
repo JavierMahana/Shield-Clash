@@ -41,7 +41,7 @@
     "spriteId": {"name":"K_side_roll","path":"sprites/K_side_roll/K_side_roll.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 12.0,
+    "playbackSpeed": 6.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

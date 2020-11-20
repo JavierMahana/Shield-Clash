@@ -19,7 +19,51 @@ if(_counterLevelTime >= _timeStartSpawnHugeEnemies)
 #endregion
 
 
+
+
 #region SPAWN ENEMIES
+
+
+
+#region INITIAL SPAWNS (son spawns de enemigos pequeños al iniciar el nivel. Para que no este vacio el nivel)
+if(_initialSpawn)
+{
+	for(var j = 0; j < _initialSpawnCount; j++)
+	{
+		var spawnNodeX = 0;
+		var spawnNodeY = 0;
+		do
+		{
+			spawnNodeX = random_range(0, _movmentMapInst._nodesX - 1);
+			spawnNodeY = random_range(0, _movmentMapInst._nodesY - 1);
+		}
+		until(_movmentMapInst._movementMap[spawnNodeX,spawnNodeY]);
+	
+	
+	
+		var spawnX = _movmentMapInst.x + spawnNodeX * _movmentMapInst._nodeWidth;
+		var spawnY = _movmentMapInst.y + spawnNodeY * _movmentMapInst._nodeHeigth;
+		
+		var spawnersCount = array_length_1d(_smallEnemiesSpawners);
+		if(spawnersCount <= 0)
+		{
+			//show_error("YOU NEED TO ASSIGN A LIST OF SPAWNERS TO THE LEVEL. THAT LIST CONTAINS THE POSIBLES ENEMIES", true);
+		}
+		else
+		{
+			//show_debug_message(string(round(random_range(0, spawnersCount - 1))));
+			var spawnerToCreate = _smallEnemiesSpawners[round(random_range(0, spawnersCount - 1))];
+			instance_create_layer(spawnX, spawnY, "Instances", spawnerToCreate);
+		}
+	
+	}
+	_initialSpawn = false;
+}
+//_spawnersToSpawn[0] = o_spawner;
+
+#endregion
+
+
 
 var currEnemyCount = instance_number(o_enemy) + instance_number(o_spawner);
 var increaseRatio = max((_maxIncreaseRatio - currEnemyCount), 1);

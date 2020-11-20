@@ -14,21 +14,21 @@ global.player_movmentDirection = -1;
 
 _horImp = 0;
 _verImp = 0;
-_speed = 3;
+_speed = 2;
 
 // Dodge
 
 //hurt circle radius 
-_hurtRadius = 5;
+_hurtRadius = 4;
 
 _dodgeFrameCount = 0;
 
 _dodgeHorMult = 0;
 _dodgeVerMult = 0;
 
-_dodgeInvulFrames = 14;
-_dodgeVulnerableFrames = 9;
-_dodgeSpeed = 4;
+_dodgeInvulFrames = 24;
+_dodgeVulnerableFrames = 10;
+_dodgeSpeed = 3;
 
 _onDodge = false;
 

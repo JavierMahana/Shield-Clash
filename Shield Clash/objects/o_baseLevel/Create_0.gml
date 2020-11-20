@@ -56,8 +56,9 @@ _hugeEnemiesSpawners[0] = o_spawnerHuge;
 
 
 
-//_spawnersToSpawn[0] = o_spawner;
 
+_initialSpawn = true;
+_initialSpawnCount = 5;
 
 
 

@@ -41,7 +41,7 @@
     "spriteId": {"name":"K_down_run","path":"sprites/K_down_run/K_down_run.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 4.0,
+    "playbackSpeed": 8.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

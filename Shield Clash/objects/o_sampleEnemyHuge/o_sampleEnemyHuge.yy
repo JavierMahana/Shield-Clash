@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "o_enemy",
-    "path": "objects/o_enemy/o_enemy.yy",
+    "name": "o_enemy_c",
+    "path": "objects/o_enemy_c/o_enemy_c.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,7 +24,6 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_sampleEnemyHuge","path":"objects/o_sampleEnemyHuge/o_sampleEnemyHuge.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_sampleEnemyHuge","path":"objects/o_sampleEnemyHuge/o_sampleEnemyHuge.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
