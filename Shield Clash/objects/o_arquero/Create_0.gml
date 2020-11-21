@@ -14,7 +14,7 @@ image_xscale = -1;
 
 _health = 2;
 _speed = 1;
-
+_attackSound = sfx_arrow;
 _sightDistance = 250;
 
 
@@ -67,7 +67,8 @@ _attackState = AttackState.ATTACK_ANIM;
 #endregion
 
 
-
+//sound 
+missileSound = audio_emitter_create();
 
 
 

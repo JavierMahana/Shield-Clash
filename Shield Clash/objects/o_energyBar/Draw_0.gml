@@ -63,7 +63,7 @@ if ((abs(global.player_x) - abs(_newBarX)) != 32 && _moveX)
 	}
 }
 
-if (instance_exists(o_testPalyer))
+if (instance_exists(o_player))
 {
 	_barX = global.player_x + _newBarX - 32;
 	_barY = global.player_y + _newBarY - 24;

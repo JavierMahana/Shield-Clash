@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "s_sampleEnemyHuge",
-    "path": "sprites/s_sampleEnemyHuge/s_sampleEnemyHuge.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -24,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_sampleEnemyHuge","path":"objects/o_sampleEnemyHuge/o_sampleEnemyHuge.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_conjurer","path":"objects/o_conjurer/o_conjurer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +30,7 @@
     "path": "folders/Objetos/Enemy.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_sampleEnemyHuge",
+  "name": "o_conjurer",
   "tags": [],
   "resourceType": "GMObject",
 }

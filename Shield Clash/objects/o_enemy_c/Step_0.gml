@@ -159,11 +159,16 @@ if(_triggerAttack)
 		}
 		
 		instance.direction = enemyBulletDir;
+		instance.image_angle = enemyBulletDir;
 		instance.speed = _bulletSpeed;
 		instance.sprite_index = _bulletSprite;
-		instance.image_angle = point_direction(instance.x,instance. y, global.player_x, global.player_y);
+	
 	}
 	
+	audio_falloff_set_model(audio_falloff_linear_distance_clamped);
+	audio_emitter_position(missileSound, x, y, 0);
+	audio_emitter_falloff(missileSound, 10, 500, 1);
+	audio_play_sound_on(missileSound, _attackSound, false, 10);
 
 	
 	_triggerAttack = false;
@@ -183,4 +188,5 @@ if(_triggerAttack)
 		image_xscale = -1;
 	}
 }
+
 #endregion

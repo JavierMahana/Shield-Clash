@@ -14,21 +14,21 @@ global.player_movmentDirection = -1;
 
 _horImp = 0;
 _verImp = 0;
-_speed = 2;
+_speed = 3;
 
 // Dodge
 
 //hurt circle radius 
-_hurtRadius = 4;
+_hurtRadius = 5;
 
 _dodgeFrameCount = 0;
 
 _dodgeHorMult = 0;
 _dodgeVerMult = 0;
 
-_dodgeInvulFrames = 24;
-_dodgeVulnerableFrames = 10;
-_dodgeSpeed = 3;
+_dodgeInvulFrames = 14;
+_dodgeVulnerableFrames = 9;
+_dodgeSpeed = 5;
 
 _onDodge = false;
 
@@ -51,3 +51,12 @@ _barHeight = 20;
 
 //Player Bullet
 global._playerBulletSpeed = 1.5;
+
+//Player sounds
+audio_listener_orientation(0,1,0,0,0,1);
+audio_listener_position(x, y, 0);
+lastSfx = 0;
+orderSfx = 0;
+contadorPaso = 0;
+currentSound = "";
+stepSound = audio_emitter_create();

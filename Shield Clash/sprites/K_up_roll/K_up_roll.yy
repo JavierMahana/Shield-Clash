@@ -41,7 +41,7 @@
     "spriteId": {"name":"K_up_roll","path":"sprites/K_up_roll/K_up_roll.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 6.0,
+    "playbackSpeed": 12.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

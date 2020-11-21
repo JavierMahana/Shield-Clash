@@ -24,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_spawnerMedium","path":"objects/o_spawnerMedium/o_spawnerMedium.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_spawner_conjurer","path":"objects/o_spawner_conjurer/o_spawner_conjurer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objetos/Spawn.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_spawnerMedium",
+  "name": "o_spawner_conjurer",
   "tags": [],
   "resourceType": "GMObject",
 }

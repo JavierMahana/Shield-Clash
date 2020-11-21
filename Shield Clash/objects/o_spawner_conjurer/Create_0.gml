@@ -3,4 +3,4 @@
 _spawnCounter = 0;
 _spawnTime = 40;
 
-_entityToSpawn = o_sampleEnemyHuge;
+_entityToSpawn = o_conjurer;

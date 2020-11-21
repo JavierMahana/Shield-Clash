@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.05,
+  "volume": 0.14,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -13,8 +13,8 @@
   "soundFile": "paso1.mp3",
   "duration": 0.323333,
   "parent": {
-    "name": "StepyStep",
-    "path": "folders/Sonidos/StepyStep.yy",
+    "name": "StepbyStep",
+    "path": "folders/Sonidos/StepbyStep.yy",
   },
   "resourceVersion": "1.0",
   "name": "paso1",

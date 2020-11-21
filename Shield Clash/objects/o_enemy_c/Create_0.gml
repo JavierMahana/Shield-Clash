@@ -26,7 +26,7 @@ _bulletSprite = Lowmage_missile;
 
 _health = 1;
 _speed = 0.5;
-
+_attackSound = sfx_misc;
 _sightDistance = 150;
 
 
@@ -77,7 +77,8 @@ _attackState = AttackState.ATTACK_ANIM;
 
 #endregion
 
-
+//sound 
+missileSound = audio_emitter_create();
 
 
 

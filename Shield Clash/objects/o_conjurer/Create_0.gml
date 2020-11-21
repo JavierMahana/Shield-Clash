@@ -1,11 +1,11 @@
 
 #region sprites
 
-_idleSrite = s_sampleEnemyHuge;
-_prepSprite = s_sampleEnemyHuge;
-_attackingSprite = s_sampleEnemyHuge;
-_walkingSprite = s_sampleEnemyHuge;
-_bulletSprite = Lowmage_missile;
+_idleSrite = Conjurador_dance;
+_prepSprite = Conjurador_dance;
+_attackingSprite = Conjurador_attack;
+_walkingSprite = Conjurador_dance;
+_bulletSprite = Conjurador_missile;
 
 #endregion
 
@@ -13,7 +13,7 @@ _bulletSprite = Lowmage_missile;
 
 _health = 20;
 _speed = 0.3;
-
+_attackSound = sfx_laugh;
 _sightDistance = 250;
 
 
@@ -65,7 +65,7 @@ _attackState = AttackState.ATTACK_ANIM;
 #endregion
 
 
-
+missileSound = audio_emitter_create();
 
 
 

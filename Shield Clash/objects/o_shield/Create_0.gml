@@ -3,4 +3,6 @@
 _notShownX = 9999;
 _notShownY = 9999;
 
-audio_group_load(sfx_shieldgroup);
+lastSfx = 0;
+orderSfx = 0;
+currentSound = "";

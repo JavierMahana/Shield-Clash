@@ -15,7 +15,7 @@ _bulletSprite = Crossbow_missile;
 
 _health = 1;
 _speed = 0.5;
-
+_attackSound = sfx_arrow;
 _sightDistance = 150;
 
 
@@ -67,7 +67,7 @@ _attackState = AttackState.ATTACK_ANIM;
 #endregion
 
 
-
+missileSound = audio_emitter_create();
 
 
 

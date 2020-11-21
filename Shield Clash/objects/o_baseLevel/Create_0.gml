@@ -51,7 +51,7 @@ _mediumEnemiesSpawners[1] = o_spawner_arquero;
 
 _bigEnemiesSpawners[0] = o_spawnerLowmage;
 
-_hugeEnemiesSpawners[0] = o_spawnerHuge;
+_hugeEnemiesSpawners[0] = o_spawner_conjurer;
 
 
 
