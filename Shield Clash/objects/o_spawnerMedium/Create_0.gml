@@ -3,4 +3,4 @@
 _spawnCounter = 0;
 _spawnTime = 25;
 
-//_entityToSpawn = o_sampleEnemyMedium;
+_entityToSpawn = o_sampleEnemyMedium;

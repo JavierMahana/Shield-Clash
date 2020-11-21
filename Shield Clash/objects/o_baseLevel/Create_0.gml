@@ -70,6 +70,3 @@ enum EnemyType
 	HUGE
 }
 
-
-// Reiniciar
-

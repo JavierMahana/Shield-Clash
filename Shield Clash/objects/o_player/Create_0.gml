@@ -51,12 +51,3 @@ _barHeight = 20;
 
 //Player Bullet
 global._playerBulletSpeed = 1.5;
-
-//Player sounds
-audio_listener_orientation(0,1,0,0,0,1);
-audio_listener_position(x, y, 0);
-lastSfx = 0;
-orderSfx = 0;
-contadorPaso = 0;
-currentSound = "";
-

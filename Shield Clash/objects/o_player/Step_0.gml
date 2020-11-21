@@ -1,3 +1,10 @@
+//Restart
+if(keyboard_check(ord("R")))
+	{
+		room_restart();
+	}
+
+//Actual Relevant Stuff
 
 desiredX = x;
 desiredY = y;
@@ -147,6 +154,4 @@ else
 }
 #endregion
 
-//Sound
-	
-audio_listener_position(x,y,0);
+

@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "Lowmage_missile",
+    "path": "sprites/Lowmage_missile/Lowmage_missile.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

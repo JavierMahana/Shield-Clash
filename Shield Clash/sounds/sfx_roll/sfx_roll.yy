@@ -1,9 +1,9 @@
 {
   "compression": 1,
-  "volume": 0.25,
+  "volume": 0.17,
   "preload": false,
-  "bitRate": 512,
-  "sampleRate": 48000,
+  "bitRate": 128,
+  "sampleRate": 44100,
   "type": 1,
   "bitDepth": 1,
   "audioGroupId": {
