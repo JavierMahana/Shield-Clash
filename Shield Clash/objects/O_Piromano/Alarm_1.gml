@@ -4,15 +4,23 @@
 	path_start(path,0,path_action_stop,false);
 	if (image_xscale == -1)
 	{
-		var instance = instance_create_layer(x+8,y-8,"Instances", o_Piromano_missile);	
+		var instance = instance_create_layer(x+8,y-8,"Instances", o_enemyBullet);	
 	}
 	else
 	{
-		var instance = instance_create_layer(x-8,y-8,"Instances", o_Piromano_missile);	
+		var instance = instance_create_layer(x-8,y-8,"Instances", o_enemyBullet);	
 	}
 	var enemyBulletDir = point_direction(instance.x, instance.y, global.player_x, global.player_y);
 	instance.direction = enemyBulletDir;
 	instance.speed = _bulletSpeed * 1.5;	
+	instance.sprite_index = Piromano_missile;
+	instance.image_angle = enemyBulletDir;
+	
+	missileSound = audio_emitter_create();
+	audio_falloff_set_model(audio_falloff_linear_distance);
+	audio_emitter_position(missileSound, instance.x, instance.y, 0);
+	audio_emitter_falloff(missileSound, 10, 500, 2);
+	audio_play_sound_on(missileSound, sfx_fireball, false, 10);
 		
 // Luego revisa si hay vision del jugador
 // revisa con una linea desde sÃ­ mismo hasta el objeto jugador

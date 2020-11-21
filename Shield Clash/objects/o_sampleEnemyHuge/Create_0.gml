@@ -1,26 +1,80 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
-_speed = 0.5;
-_health = 1;
+#region sprites
 
-_shotTimer = 0;
-_timeBewtweenShots = 150;
+_idleSrite = Lowmage_idle;
+_prepSprite = Lowmage_attack;
+_attackingSprite = Lowmage_attack;
+_walkingSprite = Lowmage_idle;
+_bulletSprite = Lowmage_missile;
+
+#endregion
+
+#region general atributtes
+
+_health = 3;
+_speed = 0.4;
+_attackSound = sfx_laugh;
+_sightDistance = 200;
+
+
+#endregion
+
+
+#region attack attributes
+
+//tiempo que se demora la animacion de inicio de ataque
+_attackPrepTime = 30;
+//tiempo que se demora la animacion de ataque
+_attackTime = 6;
+//tiempo entre cada bala del ataque
+_attackInBewtweenTime = 10;
+//tiempo en el que el enemigo no ataca y se empieza a mover luego de haber realizado un ataque
+_wanderTime = 100;
+
+//cantidad de balas que se disparan en cada disparo de una rafaga.
+_ammountOfBulletsPerBurst = 5;
+
+for (i = 0; i < _ammountOfBulletsPerBurst; i++)
+{
+	//angulo respecto al objetivo en el que se dispara la bala.
+	
+	_bulletAngle[i] = i * 5 - 10;
+}
+
+_bulletSpeed = 1;
+//cantidad de disparos que tiene una rafaga de ataques.
+_burstAmmount = 4;
+
+_predictMovement = true;
+
+_bulletObject = o_enemyBullet;
+
+//_attackAndMove = false;
+
+#endregion
+
+#region variables
+
 _playerOnSight = false;
-_contAnimacionAtaque = 30;
+_state = EnemyState.CHASING;
+_stateTimer = 0;
+_currBurstCount = 0;
+_triggerAttack = false;
 
-_bulletSpeed = 2;
+_attackState = AttackState.ATTACK_ANIM;
 
-_havePath = false;
-_repathTimer = random_range(0, 150);
-_timeToCalculatePath = 150;
+#endregion
 
 
+//sound 
+missileSound = audio_emitter_create();
+
+
+
+
+
+
+
+
+
+//Al crearse el enemigo, ocupa un lugar en grid.
 path = path_add();
-
-//Éste enemigo usará la alarma 0 cada 30 algo.
-alarm[0] = 30;
-alarm[1] = -1;
-//Sprites
-_spriteWalk = s_sampleEnemyHuge;
-_spriteIdle = s_sampleEnemyHuge;
-_spriteAttack = s_sampleEnemyHuge;

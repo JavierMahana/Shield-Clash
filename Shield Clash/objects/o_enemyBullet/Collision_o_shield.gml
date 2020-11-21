@@ -7,4 +7,6 @@ instance.sprite_index = Lowmage_missile_player;
 instance.speed = speed * global._playerBulletSpeed;
 instance.direction = newBulletDir;
 
+
+
 instance_destroy();

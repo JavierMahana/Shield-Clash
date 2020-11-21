@@ -1,15 +1,12 @@
 {
-  "spriteId": {
-    "name": "Lowmage_missile",
-    "path": "sprites/Lowmage_missile/Lowmage_missile.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "o_bullet",
-    "path": "objects/o_bullet/o_bullet.yy",
+    "name": "o_enemy_c",
+    "path": "objects/o_enemy_c/o_enemy_c.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,16 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_shield","path":"objects/o_shield/o_shield.yy",},"parent":{"name":"o_enemyBullet","path":"objects/o_enemyBullet/o_enemyBullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_Lowmage","path":"objects/o_Lowmage/o_Lowmage.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Proyectiles",
-    "path": "folders/Objetos/Proyectiles.yy",
+    "name": "Enemy",
+    "path": "folders/Objetos/Enemy.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_enemyBullet",
+  "name": "o_Lowmage",
   "tags": [],
   "resourceType": "GMObject",
 }

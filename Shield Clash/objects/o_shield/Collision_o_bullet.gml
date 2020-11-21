@@ -1,10 +1,7 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
-
 missileSound = audio_emitter_create();
 audio_falloff_set_model(audio_falloff_linear_distance);
 audio_emitter_position(missileSound, x, y, 0);
-audio_emitter_falloff(missileSound, 0, 100, 2);
+audio_emitter_falloff(missileSound, 1, 50, 2);
 
 while(orderSfx == lastSfx)
 {
@@ -29,5 +26,5 @@ switch(orderSfx)
 	default: currentSound = sfx_shieldDO;
 }
 
-audio_play_sound_on(missileSound, currentSound, false, 50);
+audio_play_sound_on(missileSound, currentSound, true, 50);
 lastSfx = orderSfx;
