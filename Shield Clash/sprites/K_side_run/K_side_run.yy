@@ -35,7 +35,11 @@
     "spriteId": {"name":"K_side_run","path":"sprites/K_side_run/K_side_run.yy",},
     "timeUnits": 1,
     "playback": 1,
+<<<<<<< HEAD
     "playbackSpeed": 5.0,
+=======
+    "playbackSpeed": 6.0,
+>>>>>>> ramajoaco
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

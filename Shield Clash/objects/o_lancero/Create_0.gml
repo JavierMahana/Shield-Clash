@@ -13,7 +13,7 @@ _bulletSprite = Spearman_missile;
 
 _health = 2;
 _speed = 0.4;
-
+_attackSound = sfx_spear;
 _sightDistance = 300;
 
 
@@ -66,7 +66,8 @@ _attackState = AttackState.ATTACK_ANIM;
 #endregion
 
 
-
+//sound 
+missileSound = audio_emitter_create();
 
 
 

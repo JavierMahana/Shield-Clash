@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "s_sampleEnemyHuge",
-    "path": "sprites/s_sampleEnemyHuge/s_sampleEnemyHuge.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
