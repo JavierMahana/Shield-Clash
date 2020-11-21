@@ -24,6 +24,7 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_playerBullet","path":"objects/o_playerBullet/o_playerBullet.yy",},"parent":{"name":"o_enemy_c","path":"objects/o_enemy_c/o_enemy_c.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_enemy_c","path":"objects/o_enemy_c/o_enemy_c.yy",},"parent":{"name":"o_enemy_c","path":"objects/o_enemy_c/o_enemy_c.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"parent":{"name":"o_enemy_c","path":"objects/o_enemy_c/o_enemy_c.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"o_enemy_c","path":"objects/o_enemy_c/o_enemy_c.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -14,7 +14,7 @@ _health = 3;
 _speed = 0.4;
 _attackSound = sfx_laugh;
 _sightDistance = 200;
-
+dead = false;
 
 #endregion
 
@@ -67,6 +67,15 @@ _attackState = AttackState.ATTACK_ANIM;
 
 //sound 
 missileSound = audio_emitter_create();
+
+
+
+#region shader
+flashAlpha = 0;
+flashColour = c_white;
+bulletDirection = 0;
+deadCount = 0;
+#endregion
 
 
 

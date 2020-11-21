@@ -1,3 +1,5 @@
 /// Efecto de pixeles
-Particulas();
-part_particles_create(global.particleSystem, x + 8, y + 8, global.particulaBullet, 1);
+if (!place_meeting(x, y, o_enemy) or !place_meeting(x,y, o_enemy_c))
+	{		
+		part_particles_create(global.particleSystem, x, y, particula2, 1);
+	}

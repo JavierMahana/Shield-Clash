@@ -5,6 +5,7 @@ global.player_shieldDirection = point_direction(x, y, mouse_x, mouse_y);
 
 if(_onDodge)
 {
+	Particulas();
 	if (_horImp != 0)
 	{
 			sprite_index = K_side_roll;

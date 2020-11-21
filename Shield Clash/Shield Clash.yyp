@@ -54,6 +54,7 @@
     {"id":{"name":"sfx_shieldLA","path":"sounds/sfx_shieldLA/sfx_shieldLA.yy",},"order":5,},
     {"id":{"name":"w_upright","path":"sprites/w_upright/w_upright.yy",},"order":10,},
     {"id":{"name":"s_PiromanoTele","path":"sprites/s_PiromanoTele/s_PiromanoTele.yy",},"order":25,},
+    {"id":{"name":"Flash","path":"shaders/Flash/Flash.yy",},"order":1,},
     {"id":{"name":"s_Floorll4","path":"sprites/s_Floorll4/s_Floorll4.yy",},"order":7,},
     {"id":{"name":"Vine_side2","path":"sprites/Vine_side2/Vine_side2.yy",},"order":8,},
     {"id":{"name":"s_markRed","path":"sprites/s_markRed/s_markRed.yy",},"order":5,},

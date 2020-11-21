@@ -1,3 +1,6 @@
+if(!dead)
+{
+	
 #region player on sight update
 
 if(collision_line(x,y,global.player_x,global.player_y,o_blockSight,true,false))
@@ -189,4 +192,55 @@ if(_triggerAttack)
 	}
 }
 
+//flash 
+if flashAlpha > 0
+{
+	flashAlpha -= 0.05;	
+}
 #endregion
+	
+}
+else
+{
+	
+	//flash 
+	if flashAlpha > 0
+	{
+		flashAlpha -= 0.05;	
+	}
+	if deadCount > 0
+	{
+		deadCount--;
+	}
+	if (instance_exists(self))
+	var bubbles = part_type_create();
+	// particula a usar
+	part_type_sprite(bubbles,Death, true, true, true);
+	// escala
+	part_type_scale(bubbles,0.1,0.1);
+	// duracion de la particula (STEPS)
+	part_type_life(bubbles, 10,20);
+	// efecto de disipación
+	part_type_alpha3(bubbles, 0.5, 1, 0);
+	// color
+	part_type_color1(bubbles, c_white);
+	// tamaño(importa)
+	part_type_size(bubbles,1,1,1,0);
+	// velocidad
+	part_type_speed(bubbles,0.01,0.05,0,0);
+	// dirección
+	part_type_direction(bubbles,0,359,0,true);
+	// bubbles
+	part_type_gravity(bubbles,0.02,90);
+	// mezcla
+	part_type_blend(bubbles,true);
+	// el efecto
+	part_particles_create(global.particleSystem, x, y, bubbles, 1);
+	
+	
+	if deadCount == 0
+	{
+			instance_destroy(self);
+	}
+	
+}

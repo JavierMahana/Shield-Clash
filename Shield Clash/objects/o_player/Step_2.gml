@@ -68,6 +68,31 @@ if (not _onDodge)
 			
 		}		
 		
+	// particle effecs
+			
+	
+	var Step = part_type_create();
+	// particula a usar
+	part_type_shape(Step,pt_shape_square);
+	// escala
+	part_type_scale(Step,0.01,0.01);
+	// duracion de la particula (STEPS)
+	part_type_life(Step, 7,10);
+	// efecto de disipación
+	part_type_alpha3(Step, 0.5, 1, 0);
+	// color
+	part_type_color1(Step, c_white);
+	// velocidad
+	part_type_speed(Step,0.1,0.5,0,0);
+	// dirección
+	part_type_direction(Step,0,359,0,true);
+	// gravedad
+	part_type_gravity(Step,0.2,90);
+	// mezcla
+	part_type_blend(Step,true);
+	// el efecto
+	part_particles_create(global.particleSystem, o_player.x, o_player.bbox_bottom, Step, 1);
+		
 	}
 		
 }
