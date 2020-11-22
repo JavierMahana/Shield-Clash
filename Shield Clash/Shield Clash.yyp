@@ -100,6 +100,7 @@
     {"id":{"name":"sfx_enemyDeath","path":"sounds/sfx_enemyDeath/sfx_enemyDeath.yy",},"order":1,},
     {"id":{"name":"s_flooresquinaderechaabajo","path":"sprites/s_flooresquinaderechaabajo/s_flooresquinaderechaabajo.yy",},"order":9,},
     {"id":{"name":"s_FloorUp","path":"sprites/s_FloorUp/s_FloorUp.yy",},"order":3,},
+    {"id":{"name":"BlackMask","path":"shaders/BlackMask/BlackMask.yy",},"order":2,},
     {"id":{"name":"Grass3","path":"sprites/Grass3/Grass3.yy",},"order":13,},
     {"id":{"name":"Knight_Drun","path":"sprites/Knight_Drun/Knight_Drun.yy",},"order":16,},
     {"id":{"name":"s_sampleEnemy","path":"sprites/s_sampleEnemy/s_sampleEnemy.yy",},"order":7,},

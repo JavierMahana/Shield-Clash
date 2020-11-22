@@ -164,8 +164,7 @@ if(_triggerAttack)
 		instance.direction = enemyBulletDir;
 		instance.image_angle = enemyBulletDir;
 		instance.speed = _bulletSpeed;
-		instance.sprite_index = _bulletSprite;
-	
+		instance.sprite_index = _bulletSprite;	
 	}
 	
 	audio_falloff_set_model(audio_falloff_linear_distance_clamped);
