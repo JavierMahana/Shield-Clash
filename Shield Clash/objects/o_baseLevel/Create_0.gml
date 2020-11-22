@@ -33,13 +33,13 @@ _canSpawnBig = false;
 _canSpawnHuge = false;
 
 _timeStartSpawnMediumEnemies = 300;
-_timeStartSpawnBigEnemies = 800;
-_timeStartSpawnHugeEnemies = 1500;
+_timeStartSpawnBigEnemies = 700;
+_timeStartSpawnHugeEnemies = 1400;
 
 _smallEnemiesSpawnWeight = 12;
 _mediumEnemiesSpawnWeight = 6;
 _bigEnemiesSpawnWeight = 3;
-_hugeEnemiesSpawnWeight = 1;
+_hugeEnemiesSpawnWeight = 10;
 
 
 _smallEnemiesSpawners[0] = o_spawner_arquero;

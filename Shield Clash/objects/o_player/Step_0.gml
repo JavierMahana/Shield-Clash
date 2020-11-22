@@ -2,8 +2,41 @@
 desiredX = x;
 desiredY = y;
 
+#region SALVAVIDAS
+
+if(keyboard_check(ord("Q")))
+{
+	if(global.playerSalvavidas > 0 && !_usandoSalvavidas)
+	{
+		if(!_usarSalvavidasApretado)
+		{
+			global.playerSalvavidas -= 1;
+			_usandoSalvavidas = true;
+		}
+		_usarSalvavidasApretado = true;
+	}
+}
+else
+{
+	_usarSalvavidasApretado = false;
+}
+
+if(_usandoSalvavidas)
+{
+	instance_destroy(o_enemyBullet);
+	_contadorSalvavidas += delta_time / 100000;
+	if(_contadorSalvavidas >= _duracionSalvavidas)
+	{
+		_usandoSalvavidas = false;
+		_contadorSalvavidas = 0;
+	}
+}
+
+#endregion
 
 #region MOVEMENT INPUT READ
+
+
 
 _horImp = 0;
 _verImp = 0;

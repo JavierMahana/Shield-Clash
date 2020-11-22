@@ -41,7 +41,7 @@ for (i = 0; i < _ammountOfBulletsPerBurst; i++)
 	_bulletAngle[i] = 0;
 }
 
-_bulletSpeed = 4;
+_bulletSpeed = 3;
 //cantidad de disparos que tiene una rafaga de ataques.
 _burstAmmount = 1;
 

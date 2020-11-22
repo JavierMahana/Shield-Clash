@@ -10,7 +10,7 @@ _bulletSprite = Lowmage_missile;
 
 #region general atributtes
 
-_health = 3;
+_health = 10;
 _speed = 0.4;
 _attackSound = sfx_laugh;
 _sightDistance = 200;
@@ -44,7 +44,7 @@ _bulletSpeed = 1;
 //cantidad de disparos que tiene una rafaga de ataques.
 _burstAmmount = 4;
 
-_predictMovement = true;
+_predictMovement = false;
 
 _bulletObject = o_enemyBullet;
 

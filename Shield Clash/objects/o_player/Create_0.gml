@@ -1,6 +1,13 @@
 /// CREATE :s
 sprite_index = K_Idle
 // The fucking globals
+global.playerSalvavidas = 3;
+_salvavidasMax = 6;
+_usarSalvavidasApretado = false;
+_usandoSalvavidas = false;
+_duracionSalvavidas = 15;
+_contadorSalvavidas = 0;
+
 global.player_x = x;
 global.player_y = y;
 global.player_usingShield = false;
@@ -19,7 +26,7 @@ _speed = 3;
 // Dodge
 
 //hurt circle radius 
-_hurtRadius = 5;
+_hurtRadius = 4;
 
 _dodgeFrameCount = 0;
 
