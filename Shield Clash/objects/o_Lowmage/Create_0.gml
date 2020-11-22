@@ -15,6 +15,8 @@ _speed = 0.4;
 _attackSound = sfx_laugh;
 _sightDistance = 200;
 dead = false;
+_dropChance = 3;
+_destroyPoints = 100;
 
 #endregion
 

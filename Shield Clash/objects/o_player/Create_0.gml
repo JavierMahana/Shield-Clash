@@ -1,12 +1,9 @@
 /// CREATE :s
 sprite_index = K_Idle
 // The fucking globals
-global.playerSalvavidas = 3;
-_salvavidasMax = 6;
-_usarSalvavidasApretado = false;
-_usandoSalvavidas = false;
-_duracionSalvavidas = 15;
-_contadorSalvavidas = 0;
+
+global.puntaje = 0;
+_timeCounter = 0;
 
 global.player_x = x;
 global.player_y = y;
@@ -56,8 +53,20 @@ _shieldRechargeCounter = 0;
 _barWidth = 60;
 _barHeight = 20;
 
+//los salvavidas
+global.playerSalvavidas = 3;
+_salvavidasMax = 6;
+_usarSalvavidasApretado = false;
+_usandoSalvavidas = false;
+_duracionSalvavidas = 15;
+_contadorSalvavidas = 0;
+
+
+
+
+
 //Player Bullet
-global._playerBulletSpeed = 1.5;
+global._playerBulletSpeed = 1.3;
 
 //Player sounds
 audio_listener_orientation(0,1,0,0,0,1);

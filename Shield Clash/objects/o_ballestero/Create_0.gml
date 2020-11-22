@@ -18,6 +18,8 @@ _speed = 0.5;
 _attackSound = sfx_arrow;
 _sightDistance = 150;
 dead = false;
+_dropChance = 1;
+_destroyPoints = 100;
 
 #endregion
 

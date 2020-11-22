@@ -2,6 +2,17 @@
 desiredX = x;
 desiredY = y;
 
+#region puntaje
+
+_timeCounter += delta_time / 100000;
+if(_timeCounter >= 10)
+{
+	_timeCounter -= 10;
+	global.puntaje += 10;
+}
+
+#endregion
+
 #region SALVAVIDAS
 
 if(keyboard_check(ord("Q")))

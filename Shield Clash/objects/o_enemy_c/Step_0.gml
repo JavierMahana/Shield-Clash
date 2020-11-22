@@ -200,9 +200,10 @@ if flashAlpha > 0
 #endregion
 	
 }
+
 else
 {
-	
+	#region if death
 	//flash 
 	if flashAlpha > 0
 	{
@@ -242,5 +243,5 @@ else
 	{
 			instance_destroy(self);
 	}
-	
+	#endregion
 }

@@ -16,6 +16,8 @@ _speed = 0.4;
 _attackSound = sfx_spear;
 _sightDistance = 300;
 dead = false;
+_dropChance = 1;
+_destroyPoints = 100;
 
 #endregion
 
