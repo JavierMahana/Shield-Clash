@@ -76,3 +76,9 @@ orderSfx = 0;
 contadorPaso = 0;
 currentSound = "";
 stepSound = audio_emitter_create();
+Dust = 0;
+xPoint = 0;
+
+// Roll effect
+_dodgeStartX = x;
+_dodgeStartY = y;

@@ -98,6 +98,9 @@ if(_startDodge)
 	_onDodge = true;
 	audio_play_sound(sfx_roll,1,false);
 	_lastSprite = sprite_index;	
+	
+	_dodgeStartX = x;
+	_dodgeStartY = y;
 }
 
 if(_onDodge)
