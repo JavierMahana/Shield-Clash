@@ -138,11 +138,11 @@ if(_triggerAttack)
 		
 		if (image_xscale == -1)
 		{
-			var instance = instance_create_layer(x+8,y-8,"Instances", _bulletObject);	
+			var instance = instance_create_layer(x+8,y-8,"BulletHell", _bulletObject);	
 		}
 		else
 		{
-			var instance = instance_create_layer(x-8,y-8,"Instances", _bulletObject);	
+			var instance = instance_create_layer(x-8,y-8,"BulletHell", _bulletObject);	
 		}
 		
 		if(_predictMovement && global.player_movmentDirection != -1)
@@ -164,7 +164,6 @@ if(_triggerAttack)
 		instance.direction = enemyBulletDir;
 		instance.image_angle = enemyBulletDir;
 		instance.speed = _bulletSpeed;
-		instance.sprite_index = _bulletSprite;	
 	}
 	
 	audio_falloff_set_model(audio_falloff_linear_distance_clamped);

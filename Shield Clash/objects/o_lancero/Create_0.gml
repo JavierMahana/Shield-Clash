@@ -5,7 +5,6 @@ _idleSrite = Spearman_idle;
 _prepSprite = Spearman_idle;
 _attackingSprite = Spearman_attack;
 _walkingSprite = Spearman_idle;
-_bulletSprite = Spearman_missile;
 
 #endregion
 
@@ -49,7 +48,7 @@ _burstAmmount = 1;
 
 _predictMovement = true;
 
-_bulletObject = o_enemyBullet;
+_bulletObject = o_lanceroBullet;
 
 //_attackAndMove = false;
 

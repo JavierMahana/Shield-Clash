@@ -4,7 +4,6 @@ _idleSrite = Lowmage_idle;
 _prepSprite = Lowmage_attack;
 _attackingSprite = Lowmage_attack;
 _walkingSprite = Lowmage_idle;
-_bulletSprite = Lowmage_missile;
 
 #endregion
 
@@ -48,7 +47,7 @@ _burstAmmount = 4;
 
 _predictMovement = false;
 
-_bulletObject = o_enemyBullet;
+_bulletObject = o_LowmageBullet;
 
 //_attackAndMove = false;
 

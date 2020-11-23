@@ -4,11 +4,11 @@
 	path_start(path,0,path_action_stop,false);
 	if (image_xscale == -1)
 	{
-		var instance = instance_create_layer(x+8,y-8,"Instances", o_enemyBullet);	
+		var instance = instance_create_layer(x+8,y-8,"BulletHell", o_piromanoBullet);	
 	}
 	else
 	{
-		var instance = instance_create_layer(x-8,y-8,"Instances", o_enemyBullet);	
+		var instance = instance_create_layer(x-8,y-8,"BulletHell", o_piromanoBullet);	
 	}
 	var enemyBulletDir = point_direction(instance.x, instance.y, global.player_x, global.player_y);
 	instance.direction = enemyBulletDir;

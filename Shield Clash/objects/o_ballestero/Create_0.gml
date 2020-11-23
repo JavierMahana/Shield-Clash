@@ -7,7 +7,6 @@ _idleSrite = Crossbow_walk;
 _prepSprite = Crossbow_cast;
 _attackingSprite = Crossbow_attack;
 _walkingSprite = Crossbow_walk;
-_bulletSprite = Crossbow_missile;
 
 #endregion
 
@@ -50,7 +49,7 @@ _burstAmmount = 5;
 
 _predictMovement = false;
 
-_bulletObject = o_enemyBullet;
+_bulletObject = o_ballesteroBullet;
 
 //_attackAndMove = false;
 
