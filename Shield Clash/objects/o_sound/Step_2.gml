@@ -5,3 +5,8 @@ if !audio_is_playing(music_build)
 		alarm_set(0,1);
 	}
 }
+if !instance_exists(o_player)
+{
+	//música sad
+	audio_stop_all();
+}
