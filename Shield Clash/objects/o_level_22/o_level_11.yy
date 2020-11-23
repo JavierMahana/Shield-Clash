@@ -17,18 +17,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_movementMap","path":"objects/o_movementMap/o_movementMap.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"o_movementMap","path":"objects/o_movementMap/o_movementMap.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "MovementMaps",
-    "path": "folders/Objetos/MovementMaps.yy",
+    "name": "Niveles",
+    "path": "folders/Objetos/Niveles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_movementMap",
+  "name": "o_level_11",
   "tags": [],
   "resourceType": "GMObject",
 }

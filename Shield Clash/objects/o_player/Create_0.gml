@@ -5,6 +5,8 @@ sprite_index = K_Idle
 global.puntaje = 0;
 _timeCounter = 0;
 
+global.playerIsAlive = true;
+
 global.player_x = x;
 global.player_y = y;
 global.player_usingShield = false;
