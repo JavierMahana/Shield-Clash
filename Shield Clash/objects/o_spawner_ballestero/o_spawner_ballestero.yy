@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Spawn",
-    "path": "folders/Objetos/Spawn.yy",
+    "path": "folders/Spawn.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_spawner_ballestero",
