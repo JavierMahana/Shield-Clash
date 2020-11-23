@@ -9,6 +9,8 @@ if(_movmentMapInst == noone)
 	
 }
 
+global._pointMultiplier = 1;
+
 _maxIncreaseRatio = 10;
 
 _currentMaxEnemies = 15; //starter
@@ -39,7 +41,7 @@ _timeStartSpawnHugeEnemies = 1400;
 _smallEnemiesSpawnWeight = 12;
 _mediumEnemiesSpawnWeight = 6;
 _bigEnemiesSpawnWeight = 3;
-_hugeEnemiesSpawnWeight = 10;
+_hugeEnemiesSpawnWeight = 1;
 
 
 _smallEnemiesSpawners[0] = o_spawner_arquero;

@@ -4,7 +4,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "o_button",
+    "path": "objects/o_button/o_button.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -18,17 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_movementMap2","path":"objects/o_movementMap2/o_movementMap2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"o_movementMap2","path":"objects/o_movementMap2/o_movementMap2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_button_goto_level_13","path":"objects/o_button_goto_level_13/o_button_goto_level_13.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Systems",
-    "path": "folders/Objetos/Systems.yy",
+    "name": "Buttons",
+    "path": "folders/Objetos/Buttons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_movementMap2",
+  "name": "o_button_goto_level_13",
   "tags": [],
   "resourceType": "GMObject",
 }

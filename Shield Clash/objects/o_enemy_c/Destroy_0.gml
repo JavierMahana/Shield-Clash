@@ -6,4 +6,4 @@ if(r <= _dropChance)
 	instance_create_layer(x,y,"Instances", o_salvavidasDrop);	
 }
 
-global.puntaje += _destroyPoints;
+global.puntaje += _destroyPoints * global._pointMultiplier;
