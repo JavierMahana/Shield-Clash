@@ -1,5 +1,4 @@
 
-//room_restart();
 if(!_invul)
 {
 	with(other)

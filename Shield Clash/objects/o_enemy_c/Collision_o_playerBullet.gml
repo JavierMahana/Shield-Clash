@@ -1,7 +1,8 @@
 // Flash
 var pd = point_direction(x, y, other.x, other.y);
 var dd = angle_difference(image_angle, pd);
-bulletDirection -= min(abs(dd), 10) * sign(dd);
+
+bulletDirection = min(abs(dd), 10) * sign(dd);
 flashAlpha = 1;
 
 	
