@@ -14,8 +14,8 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 16,
-  "height": 16,
+  "width": 24,
+  "height": 24,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,18 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9889d9cf-1d0e-436a-b90d-0c939e569b30","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9889d9cf-1d0e-436a-b90d-0c939e569b30","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"LayerId":{"name":"7074b7ae-428f-4348-914b-18fc673d4ec7","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Crossbow_walk","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","name":"9889d9cf-1d0e-436a-b90d-0c939e569b30","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d2ba903b-60ae-4bbe-b0e7-e1a0d778e60b","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d2ba903b-60ae-4bbe-b0e7-e1a0d778e60b","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"LayerId":{"name":"7074b7ae-428f-4348-914b-18fc673d4ec7","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Crossbow_walk","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","name":"d2ba903b-60ae-4bbe-b0e7-e1a0d778e60b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"38f35dce-6438-46ab-b1e2-6af7ea414562","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"38f35dce-6438-46ab-b1e2-6af7ea414562","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"LayerId":{"name":"7074b7ae-428f-4348-914b-18fc673d4ec7","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Crossbow_walk","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","name":"38f35dce-6438-46ab-b1e2-6af7ea414562","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b2fbe537-075f-46fe-8ea6-26c3eeb5beac","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b2fbe537-075f-46fe-8ea6-26c3eeb5beac","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"LayerId":{"name":"7074b7ae-428f-4348-914b-18fc673d4ec7","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Crossbow_walk","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","name":"b2fbe537-075f-46fe-8ea6-26c3eeb5beac","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"61b2a38b-5a79-4f02-9c52-8d807ec5ae57","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"61b2a38b-5a79-4f02-9c52-8d807ec5ae57","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"LayerId":{"name":"7074b7ae-428f-4348-914b-18fc673d4ec7","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Crossbow_walk","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","name":"61b2a38b-5a79-4f02-9c52-8d807ec5ae57","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"47b78d0f-45fa-4f43-b03d-a615ade4afd5","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"47b78d0f-45fa-4f43-b03d-a615ade4afd5","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"LayerId":{"name":"7074b7ae-428f-4348-914b-18fc673d4ec7","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Crossbow_walk","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","name":"47b78d0f-45fa-4f43-b03d-a615ade4afd5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4bdceab4-c810-4ec0-b088-27e6cdea25cf","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4bdceab4-c810-4ec0-b088-27e6cdea25cf","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"LayerId":{"name":"7074b7ae-428f-4348-914b-18fc673d4ec7","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Crossbow_walk","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","name":"4bdceab4-c810-4ec0-b088-27e6cdea25cf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9b857409-01d0-45b2-92ae-edc370fd4d75","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9b857409-01d0-45b2-92ae-edc370fd4d75","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"LayerId":{"name":"7074b7ae-428f-4348-914b-18fc673d4ec7","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Crossbow_walk","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","name":"9b857409-01d0-45b2-92ae-edc370fd4d75","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Crossbow_walk","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},
@@ -50,10 +50,10 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"07adde80-46f5-47ce-af50-2f0ec633745a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9889d9cf-1d0e-436a-b90d-0c939e569b30","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"5b511e8f-2194-482a-8de4-a325eec8e246","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d2ba903b-60ae-4bbe-b0e7-e1a0d778e60b","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"6f28fd84-ae81-4f32-a719-228baf92e92e","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"38f35dce-6438-46ab-b1e2-6af7ea414562","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"71ce8e11-070a-4320-b553-56840ba06f47","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b2fbe537-075f-46fe-8ea6-26c3eeb5beac","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3a6432aa-0693-4385-9785-dd476b3324bc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"61b2a38b-5a79-4f02-9c52-8d807ec5ae57","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d379e8fd-2abc-4eb4-8ab2-a14ef59895fe","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"47b78d0f-45fa-4f43-b03d-a615ade4afd5","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0fbf7615-baa3-415a-8e13-d8138cf047b0","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4bdceab4-c810-4ec0-b088-27e6cdea25cf","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"14d33abb-e6e6-4d2c-9308-4ac36ebac5dd","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9b857409-01d0-45b2-92ae-edc370fd4d75","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -66,8 +66,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 8,
-    "yorigin": 8,
+    "xorigin": 12,
+    "yorigin": 12,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Crossbow_walk","path":"sprites/Crossbow_walk/Crossbow_walk.yy",},
@@ -80,8 +80,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7074b7ae-428f-4348-914b-18fc673d4ec7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Archer",
-    "path": "folders/Sprites/Enemies/Archer.yy",
+    "name": "Ballestero",
+    "path": "folders/Sprites/Enemies/Ballestero.yy",
   },
   "resourceVersion": "1.0",
   "name": "Crossbow_walk",

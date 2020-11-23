@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"03403a72-72a3-4004-9a96-b59506a8c273","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Archer",
-    "path": "folders/Sprites/Enemies/Archer.yy",
+    "name": "Ballestero",
+    "path": "folders/Sprites/Enemies/Ballestero.yy",
   },
   "resourceVersion": "1.0",
   "name": "Crossbow_missile",
