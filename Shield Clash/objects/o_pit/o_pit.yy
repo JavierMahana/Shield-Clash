@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Pit",
-    "path": "sprites/Pit/Pit.yy",
+    "name": "s_hole2",
+    "path": "sprites/s_hole2/s_hole2.yy",
   },
   "solid": false,
   "visible": true,
