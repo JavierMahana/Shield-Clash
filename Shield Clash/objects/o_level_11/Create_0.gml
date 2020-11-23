@@ -26,4 +26,3 @@ _smallEnemiesSpawnWeight = 12;
 _mediumEnemiesSpawnWeight = 6;
 _bigEnemiesSpawnWeight = 3;
 _hugeEnemiesSpawnWeight = 1;
-
