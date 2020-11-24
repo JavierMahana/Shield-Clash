@@ -25,6 +25,7 @@ if(keyboard_check(ord("Q")))
 			_usandoSalvavidas = true;
 		}
 		_usarSalvavidasApretado = true;
+		instance_create_layer(x,y,"BulletHell", o_salvavidasCircle);
 	}
 }
 else
