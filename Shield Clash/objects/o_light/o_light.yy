@@ -21,7 +21,7 @@
   "properties": [
     {"varType":7,"value":"$FFFFFFFF","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"color","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"1","rangeEnabled":true,"rangeMin":0.0,"rangeMax":1.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"intensidad","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"0.1","rangeEnabled":true,"rangeMin":0.0,"rangeMax":0.2,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"movimiento","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"0.025","rangeEnabled":true,"rangeMin":0.0,"rangeMax":0.2,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"movimiento","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":50.0,"displayName":"default","resourceVersion":"1.0","name":"77c5602d-4f07-4426-87fa-e28b29018601","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Shield Clash",
-    "path": "Shield Clash.yyp",
+    "name": "Knight!",
+    "path": "folders/Sprites/Knight!.yy",
   },
   "resourceVersion": "1.0",
   "name": "Knight_light",

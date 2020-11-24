@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"eeb32f28-507e-42bb-8ca4-965b537bd1e5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Shield Clash",
-    "path": "Shield Clash.yyp",
+    "name": "Knight!",
+    "path": "folders/Sprites/Knight!.yy",
   },
   "resourceVersion": "1.0",
   "name": "antiBullet",

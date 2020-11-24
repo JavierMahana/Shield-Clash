@@ -25,7 +25,9 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"intensidad","path":"objects/o_light/o_light.yy",},"objectId":{"name":"o_light","path":"objects/o_light/o_light.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Efectos",
     "path": "folders/Objetos/Efectos.yy",

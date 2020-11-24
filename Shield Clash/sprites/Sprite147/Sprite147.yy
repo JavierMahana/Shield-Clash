@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"378ba170-7a84-4f64-8ade-a1ac16185be6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Shield Clash",
-    "path": "Shield Clash.yyp",
+    "name": "Knight!",
+    "path": "folders/Sprites/Knight!.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite147",

@@ -26,6 +26,7 @@ if(keyboard_check(ord("Q")))
 		}
 		_usarSalvavidasApretado = true;
 		instance_create_layer(x,y,"BulletHell", o_salvavidasCircle);
+		audio_play_sound(sfx_antiBullet, 100, false);
 	}
 }
 else

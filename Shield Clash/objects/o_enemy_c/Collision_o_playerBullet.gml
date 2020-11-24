@@ -8,6 +8,10 @@ flashAlpha = 1;
 	
 // health
 _health -= 1;
+audio_falloff_set_model(audio_falloff_linear_distance_clamped);
+audio_emitter_position(sfx_hit, x, y, 0);
+audio_emitter_falloff(sfx_hit, 100, 500, 1);
+audio_play_sound_on(sfx_hit, sfx_hit, false, 10);
 instance_destroy(other);
 
 if(_health <= 0)

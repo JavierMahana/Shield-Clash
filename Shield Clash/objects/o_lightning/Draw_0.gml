@@ -15,16 +15,30 @@ if(!surface_exists(lighting_surface))
 		
 		gpu_set_blendmode(bm_add);
 		draw_sprite_ext(sprite_index, image_index, x, y, movimientoY, movimientoY, 0, color, intensidad);
-		
 		gpu_set_blendmode(bm_normal);
 	}
 	with (o_player)
 	{
+		var PlayX = global.player_x;
+		var PlayY = global.player_y;
 		gpu_set_blendmode(bm_subtract);
-		//draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, c_gray, 0.5);
+		draw_sprite_ext(sprite_index, image_index, PlayX, PlayY, image_xscale, image_yscale, image_angle, c_gray, 0.75);
 		gpu_set_blendmode(bm_normal);
 	}
-	
+	with (o_enemy_c)
+	{
+		gpu_set_blendmode(bm_subtract);
+		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale*0.71, image_yscale, image_angle, c_gray, 0.5);
+		gpu_set_blendmode(bm_normal);
+	}
+	with (o_shield)
+	{
+		gpu_set_blendmode(bm_subtract);
+		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, 0.75);	
+		gpu_set_blendmode(bm_add);
+		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, 1);
+		gpu_set_blendmode(bm_normal);
+	}
 	
 
 	// siempre se debe resetear el objetivo de superficie

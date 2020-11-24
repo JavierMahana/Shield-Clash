@@ -93,7 +93,7 @@ if (not _onDodge)
 		part_type_blend(Step,true);
 		// el efecto
 		xPoint = o_player.x + random_range(-4,4);
-		part_particles_create(global.particleSystem, xPoint, o_player.bbox_bottom, Step, 1);
+		part_particles_create(global.particleSystem2, xPoint, o_player.bbox_bottom, Step, 1);
 		Dust = 0;
 	}	
 	
