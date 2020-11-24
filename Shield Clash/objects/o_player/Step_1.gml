@@ -1,10 +1,9 @@
+
 global.player_shieldDirection = point_direction(x, y, mouse_x, mouse_y);
 
 
 if(_onDodge)
 {
-	draw_set_color(c_white);
-	draw_line(_dodgeStartX,_dodgeStartY,x,y);
 	if (_horImp != 0)
 	{
 			sprite_index = K_side_roll;

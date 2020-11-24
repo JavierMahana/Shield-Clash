@@ -8,7 +8,7 @@ _timeCounter += delta_time / 100000;
 if(_timeCounter >= 10)
 {
 	_timeCounter -= 10;
-	global.puntaje += 10;
+	global.puntaje += 10 * global._pointMultiplier;
 }
 
 #endregion

@@ -1,3 +1,4 @@
+
 if(!_invul)
 {
 	with(other)

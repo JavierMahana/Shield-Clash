@@ -9,6 +9,8 @@ if(_movmentMapInst == noone)
 	
 }
 
+global._pointMultiplier = 1;
+
 _maxIncreaseRatio = 10;
 
 _currentMaxEnemies = 15; //starter

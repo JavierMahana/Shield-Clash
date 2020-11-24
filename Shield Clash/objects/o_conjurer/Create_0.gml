@@ -5,7 +5,6 @@ _idleSrite = Conjurador_dance;
 _prepSprite = Conjurador_dance;
 _attackingSprite = Conjurador_attack;
 _walkingSprite = Conjurador_dance;
-_bulletSprite = Conjurador_missile;
 
 #endregion
 
@@ -48,7 +47,7 @@ _burstAmmount = 7;
 
 _predictMovement = false;
 
-_bulletObject = o_enemyBullet;
+_bulletObject = o_conjurerBullet;
 
 //_attackAndMove = false;
 

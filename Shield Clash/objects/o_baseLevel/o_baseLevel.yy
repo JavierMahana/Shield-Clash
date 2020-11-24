@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Systems",
-    "path": "folders/Objetos/Systems.yy",
+    "name": "Niveles",
+    "path": "folders/Objetos/Niveles.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_baseLevel",

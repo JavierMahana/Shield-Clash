@@ -1,3 +1,4 @@
+
 global.player_x = x;
 global.player_y = y;
 global.player_speed = _speed;

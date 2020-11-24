@@ -138,11 +138,11 @@ if(_triggerAttack)
 		
 		if (image_xscale == -1)
 		{
-			var instance = instance_create_layer(x+8,y-8,"Instances", _bulletObject);	
+			var instance = instance_create_layer(x+8,y-8,"BulletHell", _bulletObject);	
 		}
 		else
 		{
-			var instance = instance_create_layer(x-8,y-8,"Instances", _bulletObject);	
+			var instance = instance_create_layer(x-8,y-8,"BulletHell", _bulletObject);	
 		}
 		
 		if(_predictMovement && global.player_movmentDirection != -1)
@@ -164,15 +164,58 @@ if(_triggerAttack)
 		instance.direction = enemyBulletDir;
 		instance.image_angle = enemyBulletDir;
 		instance.speed = _bulletSpeed;
-		instance.sprite_index = _bulletSprite;	
 	}
 	
 	audio_falloff_set_model(audio_falloff_linear_distance_clamped);
 	audio_emitter_position(missileSound, x, y, 0);
 	audio_emitter_falloff(missileSound, 10, 500, 1);
 	audio_play_sound_on(missileSound, _attackSound, false, 10);
-
 	
+	#region particles
+	/*
+	if(instance.sprite_index == Archer_missile or Spearman_missile)
+	{
+	
+		show_debug_message("ArrowLOAD");
+		var Particula = part_type_create();
+		// particula a usar
+		part_type_shape(Particula,pt_shape_pixel);
+		// escala
+		part_type_scale(Particula,2,5);
+		// duracion de la particula (STEPS)
+		part_type_life(Particula, 10,50);
+		// efecto de disipación
+		part_type_alpha3(Particula, 0.1, 1, 0);
+		// color
+		part_type_color1(Particula, c_white);
+		// velocidad
+		part_type_speed(Particula,0.1,0.5,0,0);
+		// gravedad
+		//part_type_gravity(Particula,0.1,90);
+		// mezcla
+		part_type_blend(Particula,true);
+		// el efecto
+		part_particles_create(global.particleSystem, instance.x, instance.y, Particula, 1);
+	}
+	// fireballs 
+	if(instance.sprite_index == asset_get_index(Piromano_missile))
+	{
+		particulas = 2;
+	}
+	// lowmage 
+	if(instance.sprite_index == asset_get_index(Lowmage_missile))
+	{
+		particulas = 3;
+	}
+	// conjurador
+	if(instance.sprite_index == asset_get_index(Conjurador_missile))
+	{
+		particulas = 4;
+	}
+	
+		*/
+	#endregion
+
 	_triggerAttack = false;
 		
 }

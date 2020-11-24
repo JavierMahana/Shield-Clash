@@ -1,3 +1,4 @@
+
 instance_destroy(other);
 if(_salvavidasMax >= global.playerSalvavidas)
 {

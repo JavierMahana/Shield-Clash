@@ -5,7 +5,6 @@ _idleSrite = Archer_walk;
 _prepSprite = Archer_cast;
 _attackingSprite = Archer_attack;
 _walkingSprite = Archer_walk;
-_bulletSprite = Archer_missile
 image_xscale = -1;
 
 #endregion
@@ -50,7 +49,7 @@ _burstAmmount = 1;
 
 _predictMovement = false;
 
-_bulletObject = o_enemyBullet;
+_bulletObject = o_arqueroBullet;
 
 //_attackAndMove = false;
 

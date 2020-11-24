@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Systems",
-    "path": "folders/Objetos/Systems.yy",
+    "name": "MovementMaps",
+    "path": "folders/Objetos/MovementMaps.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_movementMap",
