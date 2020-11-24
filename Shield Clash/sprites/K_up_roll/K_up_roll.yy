@@ -33,15 +33,15 @@
     {"compositeImage":{"FrameId":{"name":"35648826-fecb-4a36-b7f4-2a68576236f2","path":"sprites/K_up_roll/K_up_roll.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"35648826-fecb-4a36-b7f4-2a68576236f2","path":"sprites/K_up_roll/K_up_roll.yy",},"LayerId":{"name":"ece600b5-aba6-4d79-806e-113e33d2d187","path":"sprites/K_up_roll/K_up_roll.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"K_up_roll","path":"sprites/K_up_roll/K_up_roll.yy",},"resourceVersion":"1.0","name":"35648826-fecb-4a36-b7f4-2a68576236f2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a56f604e-0b8f-4379-9b91-15137d5a8abb","path":"sprites/K_up_roll/K_up_roll.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a56f604e-0b8f-4379-9b91-15137d5a8abb","path":"sprites/K_up_roll/K_up_roll.yy",},"LayerId":{"name":"ece600b5-aba6-4d79-806e-113e33d2d187","path":"sprites/K_up_roll/K_up_roll.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"K_up_roll","path":"sprites/K_up_roll/K_up_roll.yy",},"resourceVersion":"1.0","name":"a56f604e-0b8f-4379-9b91-15137d5a8abb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5644d6b8-d10f-4d01-844f-2c7425174a68","path":"sprites/K_up_roll/K_up_roll.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5644d6b8-d10f-4d01-844f-2c7425174a68","path":"sprites/K_up_roll/K_up_roll.yy",},"LayerId":{"name":"ece600b5-aba6-4d79-806e-113e33d2d187","path":"sprites/K_up_roll/K_up_roll.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"K_up_roll","path":"sprites/K_up_roll/K_up_roll.yy",},"resourceVersion":"1.0","name":"5644d6b8-d10f-4d01-844f-2c7425174a68","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"K_up_roll","path":"sprites/K_up_roll/K_up_roll.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 12.0,
+    "playbackSpeed": 10.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -53,7 +53,7 @@
             {"id":"15bef9ac-3365-4107-a8e3-f4a2b09c5ee3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aade691a-7872-446a-83ee-915ac108a873","path":"sprites/K_up_roll/K_up_roll.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"260f3e7a-5a66-477d-b8c4-77b0f82cf0fa","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ea3caf2d-be11-4665-9c19-44083b090ed9","path":"sprites/K_up_roll/K_up_roll.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"98590e03-24d4-458a-ac65-e6693e9aa26f","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"35648826-fecb-4a36-b7f4-2a68576236f2","path":"sprites/K_up_roll/K_up_roll.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"5bdcbe6c-a194-4fe1-bfd1-8003001aa9ba","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a56f604e-0b8f-4379-9b91-15137d5a8abb","path":"sprites/K_up_roll/K_up_roll.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0efaa0c4-277d-4b4a-b73b-fa711b9a4d9c","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5644d6b8-d10f-4d01-844f-2c7425174a68","path":"sprites/K_up_roll/K_up_roll.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
