@@ -5,8 +5,8 @@ _debugObj = false;
 //_mapWidth = 1000;
 //_mapHeight = 1000;
 
-_nodesX = 15;
-_nodesY = 14;
+_nodesX = 18;
+_nodesY = 18;
 
 
 _nodeWidth = 32;//_mapWidth / _nodesX;
