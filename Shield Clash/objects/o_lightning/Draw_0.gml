@@ -154,7 +154,7 @@ draw_clear_alpha(c_black,0.65);
 		gpu_set_blendmode(bm_normal);	
 	}
 	// siempre se debe resetear el objetivo de superficie
-	surface_reset_target();
+surface_reset_target();
 
 
 draw_surface(lighting_surface,0,0);
