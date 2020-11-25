@@ -6,155 +6,141 @@ if(!surface_exists(lighting_surface))
 surface_set_target(lighting_surface);
 draw_clear_alpha(c_black,0.65);
 
+#region SUBTRACT
+// SUBTRACT 
+gpu_set_blendmode(bm_subtract);
 	// relacion con fuentes de luz
 	with (o_light)
 	{
 		var movimientoX = image_xscale + random_range(-movimiento, movimiento);
-		var movimientoY = image_yscale + random_range(-movimiento, movimiento);
-		
-		gpu_set_blendmode(bm_subtract);
+		var movimientoY = image_yscale + random_range(-movimiento, movimiento);	
 		draw_sprite_ext(sprite_index, image_index, x, y, movimientoX, movimientoX, 0, c_white, 1);
-		
-		gpu_set_blendmode(bm_add);
-		draw_sprite_ext(sprite_index, image_index, x, y, movimientoY, movimientoY, 0, color, intensidad);
-		gpu_set_blendmode(bm_normal);
+	}	
+	with (o_player)
+	{
+		draw_sprite_ext(Light, image_number, x, y, image_xscale*0.5, image_yscale*0.5, 0, c_white, 1 );
+	}	
+	with (o_enemy_c)
+	{
+		draw_sprite_ext(Light, image_number, x, y, image_xscale*0.75, image_yscale*0.75, 0, c_silver, 1);		
 	}
+	with (o_shield)
+	{
+		draw_sprite_ext(LightShield, image_index, x, y, image_xscale, image_yscale*1.75, image_angle, c_white, 1);
+	}
+	with (o_enemyBullet)
+	{
+		draw_sprite_ext(Light, image_number, x, y, image_xscale*0.5, image_yscale*0.5, 0, c_white, 1 );
+	}
+	with (o_playerBullet)
+	{
+		draw_sprite_ext(Light, image_number, x, y, image_xscale, image_yscale, 0, c_white, 1 );
+	}
+	with (o_salvavidasDrop)
+	{
+		draw_sprite_ext(sprite_index, image_number, x, y, image_xscale, image_yscale, 0, c_white, 0.5 );
+	}
+	with (o_spawner)
+	{	
+		draw_sprite_ext(Light, image_number, x, y, image_xscale*0.5, image_yscale*0.5, 0, c_white, 1 );
+	}
+		with(Death)
+	{
+		draw_sprite_ext(sprite_index, image_number, x, y, image_xscale, image_yscale, image_angle, c_white, 1 );	
+	}
+	
+		
+#endregion
+		
+#region ADD	
+// ADD
+gpu_set_blendmode(bm_add);
+with (o_light)
+	{
+		draw_sprite_ext(sprite_index, image_index, x, y, movimientoY, movimientoY, 0, color, intensidad);
+	}	
 	with (o_player)
 	{
 		if (!global.player_usingShield)
 		{
-			gpu_set_blendmode(bm_subtract);
-			draw_sprite_ext(Light, image_number, x, y, image_xscale*0.5, image_yscale*0.5, 0, c_white, 1 );
-			gpu_set_blendmode(bm_add);
 			draw_sprite_ext(Light, image_index, x, y, image_xscale*0.25, image_yscale*0.25, 0, c_white, 0.75);
-			gpu_set_blendmode(bm_normal);
 		}
 		else
-		{
-			gpu_set_blendmode(bm_subtract);
-			draw_sprite_ext(Light, image_number, x, y, image_xscale*0.5, image_yscale*0.5, 0, c_white, 1 );
-			gpu_set_blendmode(bm_add);
+		{	
 			draw_sprite_ext(Light, image_index, x, y, image_xscale*0.5, image_yscale*0.5, 0, c_silver, 1);
 			draw_sprite_ext(Light, image_index, x, y, image_xscale*0.5, image_yscale*0.5, 0, c_blue, 0.5);
-			gpu_set_blendmode(bm_normal);
 		}
 
 	}
-	with (o_enemy_c)
-	{
-		#region enemigos
-		gpu_set_blendmode(bm_subtract);
-		draw_sprite_ext(Light, image_number, x, y, image_xscale*0.75, image_yscale*0.75, 0, c_white, 0.8);
-		with (o_arquero)
-		{
-			gpu_set_blendmode(bm_add);
-			draw_sprite_ext(Light, image_index, x, y, image_xscale*0.75, image_yscale*0.75, 0, c_ltgray, 0.15);
-			gpu_set_blendmode(bm_normal);
-		}
-		with (o_ballestero)
-		{
-			gpu_set_blendmode(bm_add);
-			draw_sprite_ext(Light, image_index, x, y, image_xscale*0.75, image_yscale*0.75, 0, c_teal,0.15);
-			gpu_set_blendmode(bm_normal);
-		}
-		with (o_conjurer)
-		{
-			gpu_set_blendmode(bm_add);
-			draw_sprite_ext(Light, image_index, x, y, image_xscale*1.8, image_yscale*1.8, 0, c_purple,0.15);
-			gpu_set_blendmode(bm_normal);
-		}
-		with (o_lancero)
-		{
-			gpu_set_blendmode(bm_add);
-			draw_sprite_ext(Light, image_index, x, y, image_xscale*0.75, image_yscale*0.75, 0, c_yellow,0.15);
-			gpu_set_blendmode(bm_normal);
-		}
-		with (o_Lowmage)
-		{
-			gpu_set_blendmode(bm_add);
-			draw_sprite_ext(Light, image_index, x, y, image_xscale*1.2, image_yscale*1.2, 0, c_green,0.15);
-			gpu_set_blendmode(bm_normal);
-		}
-		gpu_set_blendmode(bm_normal);
 		
+	with (o_arquero)
+	{		
+		draw_sprite_ext(Light, image_index, x, y, image_xscale*0.75, image_yscale*0.75, 0, c_ltgray, 1);
 	}
+	with (o_ballestero)
+	{
+		draw_sprite_ext(Light, image_index, x, y, image_xscale*0.75, image_yscale*0.75, 0, c_teal,1);
+	}
+	with (o_conjurer)
+	{
+		draw_sprite_ext(Light, image_index, x, y, image_xscale*1.8, image_yscale*1.8, 0, c_purple,1);
+	}
+	with (o_lancero)
+	{
+		draw_sprite_ext(Light, image_index, x, y, image_xscale*0.75, image_yscale*0.75, 0, c_yellow,1);
+	}
+	with (o_Lowmage)
+	{
+		draw_sprite_ext(Light, image_index, x, y, image_xscale*1.2, image_yscale*1.2, 0, c_green,1);
+	}		
 	
-	#endregion
 	with (o_shield)
 	{
-		gpu_set_blendmode(bm_subtract);
-		draw_sprite_ext(LightShield, image_index, x, y, image_xscale, image_yscale*1.75, image_angle, c_white, 1);
-		
-		gpu_set_blendmode(bm_add);			
-		draw_sprite_ext(LightShield2, image_number, x, y, image_xscale*4, image_yscale*0.15, image_angle, c_blue, 0.75 );
+		draw_sprite_ext(LightShield2, image_number, x, y, image_xscale*4, image_yscale*0.15, image_angle, c_blue, 1 );
 		draw_sprite_ext(LightShield, image_number, x, y, image_xscale*1.1, image_yscale*0.15, image_angle, c_white, 1 );
 		draw_sprite_ext(LightShield, image_number, x, y, image_xscale, image_yscale*1.75, image_angle, c_navy, 1 );
-		gpu_set_blendmode(bm_normal);	
 	}
-		with (o_enemyBullet)
+	
+	with (o_conjurerBullet)
 	{
-		#region enemyBullets
-		gpu_set_blendmode(bm_subtract);
-		draw_sprite_ext(Light, image_number, x, y, image_xscale*0.5, image_yscale*0.5, 0, c_white, 1 );
-		with (o_conjurerBullet)
-		{
-			gpu_set_blendmode(bm_add);	
-			draw_sprite_ext(Light, image_index, x, y, image_xscale*0.5, image_yscale*0.5, 0, c_purple, 0.1);
-			gpu_set_blendmode(bm_normal);
-		}
-		with (o_lanceroBullet)
-		{
-			gpu_set_blendmode(bm_add);	
-			draw_sprite_ext(Light, image_index, x, y, image_xscale*0.5, image_yscale*0.5, 0, c_yellow,0.1);
-			gpu_set_blendmode(bm_normal);
-		}
-		with (o_LowmageBullet)
-		{
-			gpu_set_blendmode(bm_add);	
-			draw_sprite_ext(Light, image_index, x, y, image_xscale*0.5, image_yscale*0.5, 0, c_green,0.1);
-			gpu_set_blendmode(bm_normal);
-		}
-
-		gpu_set_blendmode(bm_normal);	
-		
+		draw_sprite_ext(Light, image_index, x, y, image_xscale*0.5, image_yscale*0.5, 0, c_purple, 1);
 	}
-	#endregion
-		with (o_playerBullet)
+	with (o_lanceroBullet)
 	{
-		gpu_set_blendmode(bm_subtract);
-		draw_sprite_ext(Light, image_number, x, y, image_xscale, image_yscale, 0, c_white, 1 );
-		gpu_set_blendmode(bm_add);	
+		draw_sprite_ext(Light, image_index, x, y, image_xscale*0.5, image_yscale*0.5, 0, c_yellow, 1);
+	}
+	with (o_LowmageBullet)
+	{
+		draw_sprite_ext(Light, image_index, x, y, image_xscale*0.5, image_yscale*0.5, 0, c_green, 1);
+	}	
+	
+	with (o_playerBullet)
+	{
 		draw_sprite_ext(Light, image_number, x, y, image_xscale, image_yscale, 0, c_blue, 0.5 );
 		draw_sprite_ext(LightBullet, image_number, x, y, image_xscale, image_yscale, 0, c_white, 1 );
-		draw_sprite_ext(LightBullet, image_number, x, y, image_xscale*0.75, image_yscale*0.75, 0, c_blue, 0.25 );
-		gpu_set_blendmode(bm_normal);		
+		draw_sprite_ext(LightBullet, image_number, x, y, image_xscale*0.75, image_yscale*0.75, 0, c_blue, 0.25 );	
 	}
-
-		with (o_salvavidasDrop)
+	with (o_salvavidasDrop)
 	{
-		gpu_set_blendmode(bm_subtract);
 		draw_sprite_ext(sprite_index, image_number, x, y, image_xscale, image_yscale, 0, c_white, 0.5 );
-		gpu_set_blendmode(bm_add);	
-		draw_sprite_ext(sprite_index, image_number, x, y, image_xscale, image_yscale, 0, c_white, 0.5 );
-		gpu_set_blendmode(bm_normal);	
 	}
-		with (o_spawner)
+	with (o_spawner)
 	{
-		gpu_set_blendmode(bm_subtract);
-		draw_sprite_ext(Light, image_number, x, y, image_xscale*0.5, image_yscale*0.5, 0, c_white, 1 );
-		gpu_set_blendmode(bm_add);	
-		draw_sprite_ext(Light, image_number, x, y, image_xscale*1.5, image_yscale*1.5, 0, c_red, 0.75 );
+		draw_sprite_ext(Light, image_number, x, y, image_xscale*1.5, image_yscale*1.5, 0, c_red, 1 );
 		draw_sprite_ext(sprite_index, image_number, x, y, image_xscale*0.5, image_yscale*0.5, 0, c_red, 1 );
-		gpu_set_blendmode(bm_normal);	
 	}
-		with (o_corpse)
+	with(Death)
 	{
-		gpu_set_blendmode(bm_subtract);
-		draw_sprite_ext(sprite_index, image_number, x, y, image_xscale*1.5, image_yscale*1.5, 0, c_white, 1 );
-		gpu_set_blendmode(bm_normal);	
+		draw_sprite_ext(sprite_index, image_number, x, y, image_xscale, image_yscale, image_angle, c_white, 1 );	
 	}
-	// siempre se debe resetear el objetivo de superficie
+	
+#endregion
+
+// NORMAL
+gpu_set_blendmode(bm_normal);	
+
+// siempre se debe resetear el objetivo de superficie
 surface_reset_target();
 
-
+gpu_set_blendmode(bm_normal);	
 draw_surface(lighting_surface,0,0);
