@@ -67,8 +67,8 @@ _attackState = AttackState.ATTACK_ANIM;
 
 
 missileSound = audio_emitter_create();
-
-
+emiterHit = audio_emitter_create();
+emiterDeath = audio_emitter_create();
 
 
 #region shader

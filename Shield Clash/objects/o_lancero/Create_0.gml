@@ -69,8 +69,8 @@ _attackState = AttackState.ATTACK_ANIM;
 
 //sound 
 missileSound = audio_emitter_create();
-
-
+emiterHit = audio_emitter_create();
+emiterDeath = audio_emitter_create();
 
 #region shader
 flashAlpha = 0;

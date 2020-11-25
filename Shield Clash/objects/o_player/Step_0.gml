@@ -25,7 +25,7 @@ if(keyboard_check(ord("Q")))
 			_usandoSalvavidas = true;
 		}
 		_usarSalvavidasApretado = true;
-		instance_create_layer(x,y,"BulletHell", o_salvavidasCircle);
+		instance_create_layer(x,y,"UI", o_salvavidasCircle);
 		audio_play_sound(sfx_antiBullet, 100, false);
 	}
 }
@@ -107,9 +107,6 @@ if(_startDodge)
 	_onDodge = true;
 	audio_play_sound(sfx_roll,1,false);
 	_lastSprite = sprite_index;	
-	
-	_dodgeStartX = x;
-	_dodgeStartY = y;
 }
 
 if(_onDodge)

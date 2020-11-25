@@ -1,5 +1,5 @@
 // cantidad máxima de sonidos permitidos
-audio_channel_num(100);
+audio_channel_num(128);
 audio_group_load(sfx_shieldgroup);
 audio_group_load(pasito);
 audio_group_load(EnemySounds);
