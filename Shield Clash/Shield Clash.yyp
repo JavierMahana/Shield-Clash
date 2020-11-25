@@ -177,6 +177,7 @@
     {"id":{"name":"w_top","path":"sprites/w_top/w_top.yy",},"order":17,},
     {"id":{"name":"s_energyBar","path":"sprites/s_energyBar/s_energyBar.yy",},"order":10,},
     {"id":{"name":"s_flooruppp","path":"sprites/s_flooruppp/s_flooruppp.yy",},"order":3,},
+    {"id":{"name":"Light_2","path":"sprites/Light_2/Light_2.yy",},"order":5,},
     {"id":{"name":"o_energyBar","path":"objects/o_energyBar/o_energyBar.yy",},"order":3,},
     {"id":{"name":"w_up_left","path":"sprites/w_up_left/w_up_left.yy",},"order":18,},
     {"id":{"name":"Piromano_teleport","path":"sprites/Piromano_teleport/Piromano_teleport.yy",},"order":5,},

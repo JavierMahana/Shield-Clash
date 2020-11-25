@@ -26,6 +26,7 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"845761a6-af42-4646-99d2-3e763dca04c6","path":"sprites/Light/Light.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"845761a6-af42-4646-99d2-3e763dca04c6","path":"sprites/Light/Light.yy",},"LayerId":{"name":"b09c6592-b16c-483c-a2c1-207383264dff","path":"sprites/Light/Light.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"845761a6-af42-4646-99d2-3e763dca04c6","path":"sprites/Light/Light.yy",},"LayerId":{"name":"d2401135-da9e-4aa7-92f5-eb1be245b75e","path":"sprites/Light/Light.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"Light","path":"sprites/Light/Light.yy",},"resourceVersion":"1.0","name":"845761a6-af42-4646-99d2-3e763dca04c6","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {

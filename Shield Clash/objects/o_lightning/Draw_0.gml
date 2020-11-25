@@ -4,7 +4,7 @@ if(!surface_exists(lighting_surface))
 }
 
 surface_set_target(lighting_surface);
-draw_clear_alpha(c_black,0.65);
+draw_clear_alpha(c_black,0.35);
 
 #region SUBTRACT
 // SUBTRACT 
