@@ -77,6 +77,11 @@ if (not _onDodge)
 		sprite_index = K_down_run;
 		_verImp += 1;
 	}
+	
+	if(_horImp == 0 && _verImp == 0)
+	{
+		sprite_index = K_Idle;
+	}
 }
 
 if(abs( _horImp) > 0 && abs(_verImp) > 0)
@@ -84,6 +89,8 @@ if(abs( _horImp) > 0 && abs(_verImp) > 0)
 	_horImp *= 0.71;
 	_verImp *= 0.71;
 }
+
+
 
 #endregion
 

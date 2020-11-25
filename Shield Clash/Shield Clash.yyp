@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"CollideWithWalls","path":"scripts/CollideWithWalls/CollideWithWalls.yy",},"order":0,},
+    {"id":{"name":"K_side_roll_vul","path":"sprites/K_side_roll_vul/K_side_roll_vul.yy",},"order":23,},
     {"id":{"name":"Vine_side1","path":"sprites/Vine_side1/Vine_side1.yy",},"order":9,},
     {"id":{"name":"Lowmage_missile","path":"sprites/Lowmage_missile/Lowmage_missile.yy",},"order":3,},
     {"id":{"name":"s_energyOutline","path":"sprites/s_energyOutline/s_energyOutline.yy",},"order":11,},
@@ -8,6 +9,7 @@
     {"id":{"name":"BigTile2","path":"sprites/BigTile2/BigTile2.yy",},"order":18,},
     {"id":{"name":"get_hover","path":"scripts/get_hover/get_hover.yy",},"order":5,},
     {"id":{"name":"s_floorInferior","path":"sprites/s_floorInferior/s_floorInferior.yy",},"order":5,},
+    {"id":{"name":"K_side_roll_invul","path":"sprites/K_side_roll_invul/K_side_roll_invul.yy",},"order":22,},
     {"id":{"name":"sfx_shieldRE","path":"sounds/sfx_shieldRE/sfx_shieldRE.yy",},"order":1,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":10,},
     {"id":{"name":"w_left0","path":"sprites/w_left0/w_left0.yy",},"order":9,},
@@ -73,6 +75,7 @@
     {"id":{"name":"o_level_13","path":"objects/o_level_13/o_level_13.yy",},"order":3,},
     {"id":{"name":"o_button_goto_level_12","path":"objects/o_button_goto_level_12/o_button_goto_level_12.yy",},"order":3,},
     {"id":{"name":"w_right1","path":"sprites/w_right1/w_right1.yy",},"order":6,},
+    {"id":{"name":"K_down_roll_invul","path":"sprites/K_down_roll_invul/K_down_roll_invul.yy",},"order":24,},
     {"id":{"name":"o_puddle","path":"objects/o_puddle/o_puddle.yy",},"order":19,},
     {"id":{"name":"o_corpse","path":"objects/o_corpse/o_corpse.yy",},"order":0,},
     {"id":{"name":"s_FloorInferiorizquierda","path":"sprites/s_FloorInferiorizquierda/s_FloorInferiorizquierda.yy",},"order":6,},
@@ -198,6 +201,7 @@
     {"id":{"name":"o_ballesteroBullet","path":"objects/o_ballesteroBullet/o_ballesteroBullet.yy",},"order":1,},
     {"id":{"name":"o_conjurer","path":"objects/o_conjurer/o_conjurer.yy",},"order":3,},
     {"id":{"name":"o_lancero","path":"objects/o_lancero/o_lancero.yy",},"order":7,},
+    {"id":{"name":"K_up_roll_invul","path":"sprites/K_up_roll_invul/K_up_roll_invul.yy",},"order":26,},
     {"id":{"name":"s_hole2","path":"sprites/s_hole2/s_hole2.yy",},"order":3,},
     {"id":{"name":"K_archer_missile","path":"sprites/K_archer_missile/K_archer_missile.yy",},"order":1,},
     {"id":{"name":"s_detalle4","path":"sprites/s_detalle4/s_detalle4.yy",},"order":3,},
@@ -254,6 +258,7 @@
     {"id":{"name":"o_enemy","path":"objects/o_enemy/o_enemy.yy",},"order":4,},
     {"id":{"name":"Knight_Ddodge","path":"sprites/Knight_Ddodge/Knight_Ddodge.yy",},"order":15,},
     {"id":{"name":"s_markGreen","path":"sprites/s_markGreen/s_markGreen.yy",},"order":4,},
+    {"id":{"name":"K_down_roll_vul","path":"sprites/K_down_roll_vul/K_down_roll_vul.yy",},"order":25,},
     {"id":{"name":"Vector2","path":"scripts/Vector2/Vector2.yy",},"order":4,},
     {"id":{"name":"Conjurador_dance","path":"sprites/Conjurador_dance/Conjurador_dance.yy",},"order":1,},
     {"id":{"name":"bridge2","path":"sprites/bridge2/bridge2.yy",},"order":1,},
@@ -267,6 +272,7 @@
     {"id":{"name":"sfx_shieldSOL","path":"sounds/sfx_shieldSOL/sfx_shieldSOL.yy",},"order":4,},
     {"id":{"name":"s_Piromano","path":"sprites/s_Piromano/s_Piromano.yy",},"order":22,},
     {"id":{"name":"Crossbow_cast","path":"sprites/Crossbow_cast/Crossbow_cast.yy",},"order":2,},
+    {"id":{"name":"K_up_roll_vul","path":"sprites/K_up_roll_vul/K_up_roll_vul.yy",},"order":27,},
     {"id":{"name":"g2","path":"sprites/g2/g2.yy",},"order":1,},
   ],
   "Options": [

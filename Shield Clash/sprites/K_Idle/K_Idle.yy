@@ -15,7 +15,7 @@
   "VTile": false,
   "For3D": false,
   "width": 16,
-  "height": 16,
+  "height": 24,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -26,6 +26,7 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"3006a8a3-f544-4436-811e-c0396b3e8eff","path":"sprites/K_Idle/K_Idle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"3006a8a3-f544-4436-811e-c0396b3e8eff","path":"sprites/K_Idle/K_Idle.yy",},"LayerId":{"name":"df70997a-209e-43bd-af12-1a0c40af070d","path":"sprites/K_Idle/K_Idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"3006a8a3-f544-4436-811e-c0396b3e8eff","path":"sprites/K_Idle/K_Idle.yy",},"LayerId":{"name":"c2ea36a6-2c50-4548-8a85-8312d31d221b","path":"sprites/K_Idle/K_Idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"K_Idle","path":"sprites/K_Idle/K_Idle.yy",},"resourceVersion":"1.0","name":"3006a8a3-f544-4436-811e-c0396b3e8eff","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -55,7 +56,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 8,
-    "yorigin": 8,
+    "yorigin": 12,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"K_Idle","path":"sprites/K_Idle/K_Idle.yy",},
@@ -66,6 +67,7 @@
   },
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"df70997a-209e-43bd-af12-1a0c40af070d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":35.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"c2ea36a6-2c50-4548-8a85-8312d31d221b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Knight!",

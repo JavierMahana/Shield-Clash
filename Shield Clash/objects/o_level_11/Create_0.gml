@@ -8,7 +8,6 @@ _maxIncreaseRatio = 10;
 _currentMaxEnemies = 15; //starter
 _levelMaxEnemies = 50;
 _timeToIncreaseMaxEnemies = 100;
-_counterIncreaseMaxEnemies = 0;
 
 //NO ES EN 1/10 de segs, YA QUE HAY UN MODIFICADOR.
 _currentSpawnTime = 700;//starter

@@ -15,7 +15,7 @@
   "VTile": false,
   "For3D": false,
   "width": 16,
-  "height": 16,
+  "height": 24,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -26,9 +26,11 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"fdeb9c79-9ea3-4dd9-be7b-b411b0aeecbb","path":"sprites/K_side_run/K_side_run.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"fdeb9c79-9ea3-4dd9-be7b-b411b0aeecbb","path":"sprites/K_side_run/K_side_run.yy",},"LayerId":{"name":"1aa206ac-a014-4a8e-be54-20b7623a7fe6","path":"sprites/K_side_run/K_side_run.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"fdeb9c79-9ea3-4dd9-be7b-b411b0aeecbb","path":"sprites/K_side_run/K_side_run.yy",},"LayerId":{"name":"76abe9b9-67f7-4d52-b21e-70b3e1911d2c","path":"sprites/K_side_run/K_side_run.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"K_side_run","path":"sprites/K_side_run/K_side_run.yy",},"resourceVersion":"1.0","name":"fdeb9c79-9ea3-4dd9-be7b-b411b0aeecbb","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"30ef86a3-14da-4857-94ac-6611d2298166","path":"sprites/K_side_run/K_side_run.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"30ef86a3-14da-4857-94ac-6611d2298166","path":"sprites/K_side_run/K_side_run.yy",},"LayerId":{"name":"1aa206ac-a014-4a8e-be54-20b7623a7fe6","path":"sprites/K_side_run/K_side_run.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"30ef86a3-14da-4857-94ac-6611d2298166","path":"sprites/K_side_run/K_side_run.yy",},"LayerId":{"name":"76abe9b9-67f7-4d52-b21e-70b3e1911d2c","path":"sprites/K_side_run/K_side_run.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"K_side_run","path":"sprites/K_side_run/K_side_run.yy",},"resourceVersion":"1.0","name":"30ef86a3-14da-4857-94ac-6611d2298166","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -59,7 +61,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 8,
-    "yorigin": 8,
+    "yorigin": 12,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"K_side_run","path":"sprites/K_side_run/K_side_run.yy",},
@@ -70,6 +72,7 @@
   },
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1aa206ac-a014-4a8e-be54-20b7623a7fe6","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":35.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"76abe9b9-67f7-4d52-b21e-70b3e1911d2c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Knight!",

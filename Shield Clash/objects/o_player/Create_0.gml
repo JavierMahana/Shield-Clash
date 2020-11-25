@@ -33,8 +33,8 @@ _dodgeHorMult = 0;
 _dodgeVerMult = 0;
 
 _dodgeInvulFrames = 20;
-_dodgeVulnerableFrames = 9;
-_dodgeSpeed = 4;
+_dodgeVulnerableFrames = 15;
+_dodgeSpeed = 3;
 
 _onDodge = false;
 
