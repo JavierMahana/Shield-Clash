@@ -1,3 +1,3 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-surface_free(lighting_surface);
+//surface_free(lighting_surface);

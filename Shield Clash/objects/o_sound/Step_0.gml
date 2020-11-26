@@ -8,7 +8,7 @@ if(room != r_MainMenu)
 			alarm_set(1,1);
 		}		
 	}		
-	else if (!audio_is_playing(music_build))
+	else if ( !audio_is_playing(round( music_build)))
 	{
 		if (!audio_is_playing(music_loop))
 		{
