@@ -1,6 +1,6 @@
 /// Si me cambian una linea de este código van a revertir 9 meses de terapia 
 /// FUCK OFF
-
+/*
 #region barra de los cojones ostias!
 // Y
 if ((abs(global.player_y) - abs(_newBarY)) != 32 && _moveY)
@@ -78,10 +78,11 @@ else
 
 draw_sprite_stretched(s_energyBar,0,_barX,_barY,(global._shieldCurrCharge/global._shieldMaxCharge)*_barWidth, _barHeight);
 draw_sprite_stretched(s_energyOutline,0,_barX,_barY,_barWidth, _barHeight);
-
+*/
+/*
 
 #region barra opuesta a escudo
-/*
+
 var point = point_direction(global.player_x, global.player_y, mouse_x, mouse_y);
 var dd = angle_difference(o_player, point)/100;
 _newDirectionX = abs(dd);
@@ -112,10 +113,10 @@ else
 	_barX = 9999;
 	_barY = 9999;
 }
-*/
+
 
 #endregion
-		
+	*/	
 #region barra arriba o abajo del jugador
 
 /*  

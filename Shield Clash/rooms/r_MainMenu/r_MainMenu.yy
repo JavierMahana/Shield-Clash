@@ -26,6 +26,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"o_button_goto_level_23","path":"objects/o_button_goto_level_23/o_button_goto_level_23.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":480.0,"resourceVersion":"1.0","name":"inst_17471B0F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_button_closeGame","path":"objects/o_button_closeGame/o_button_closeGame.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":640.0,"resourceVersion":"1.0","name":"inst_1E38D559","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_title","path":"objects/o_title/o_title.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":32.0,"resourceVersion":"1.0","name":"inst_3E70142","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_tutorial","path":"objects/o_tutorial/o_tutorial.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":32.0,"resourceVersion":"1.0","name":"inst_51E4B971","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"Knight_light","path":"sprites/Knight_light/Knight_light.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":17.0,"scaleY":21.5,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":336.0,"resourceVersion":"1.0","name":"graphic_13C344DA","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -53,6 +54,7 @@
     {"name":"inst_1FF3E1A3","path":"rooms/r_MainMenu/r_MainMenu.yy",},
     {"name":"inst_4264028D","path":"rooms/r_MainMenu/r_MainMenu.yy",},
     {"name":"inst_3E70142","path":"rooms/r_MainMenu/r_MainMenu.yy",},
+    {"name":"inst_51E4B971","path":"rooms/r_MainMenu/r_MainMenu.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

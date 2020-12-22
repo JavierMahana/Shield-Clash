@@ -4,5 +4,5 @@
 _bulletSpeed = 3;
 _bulletDirection = 0;
 
-_framesToCreateBullet = 50;
+_framesToCreateBullet = 20;
 _frameCounter = 0;

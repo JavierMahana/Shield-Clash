@@ -4,7 +4,8 @@ _frameCounter += 1;
 if(_frameCounter >= _framesToCreateBullet)
 {
 	_frameCounter = 0;
-	var instance = instance_create_layer(x,y,"Instances", o_enemyBullet);
+	var instance = instance_create_layer(x,y+16,"Instances", o_piromanoBullet);
 	instance.speed = _bulletSpeed;
-	instance.direction = _bulletDirection;
+	instance.direction = 270;
+	instance.image_angle = 270;
 }

@@ -1,6 +1,6 @@
 
 if(!_invul)
 {
-	instance_destroy(other);
-	instance_destroy();
+	//instance_destroy(other);
+	//instance_destroy();
 }
