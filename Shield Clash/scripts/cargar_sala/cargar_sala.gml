@@ -29,3 +29,7 @@ function cargar_sala_23()
 {
 	room_goto(r_Level23);
 }
+function cargar_sala_tutorial()
+{
+	room_goto(r_tutorial);
+}

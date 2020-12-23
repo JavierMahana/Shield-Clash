@@ -44,7 +44,8 @@ if(number == 1 or 2 or 3 or 4)
 // El archivo ini, se lee en el objeto "Systems/o_tutorial"
 if(number == 6 && activate)
 {
-	
+	room_goto(r_MainMenu);
+	/*
 	file = "saves/file.ini";
 	if (file_exists(file))
 	{
@@ -64,7 +65,9 @@ if(number == 6 && activate)
 	
 		show_debug_message("Tutorial completado");
 		room_goto(r_MainMenu);	
+		
 	}
+	*/
 }
 
 
